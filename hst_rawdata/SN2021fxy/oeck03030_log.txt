@@ -1,0 +1,121 @@
+2021093133155-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: oeck03030 ------------
+2021093133155-I-INFO GCO_STIS: Starting...
+2021093133155-I-INFO GCO_poll_status: ===================================================================
+2021093133155-I-INFO GCO_poll_status: -------------- Generic Conversion Processing: oeck03030 ------------- 
+2021093133155-I-INFO -------------- Generic Conversion Started: oeck03030:oeck03bbq -------------
+2021093130045-I-INFO -------------- Data Partitioning Started: oeck03bbq ------------
+2021093130045-I-INFO Partitioning from POD file: lz_494a_170_0000160935
+2021093130045-I-INFO OSF_PROCESSING: for oeck03bbq
+2021093130045-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021093130045-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1087, expected pkts = 1088 (single readout), total pkts = 1088
+2021093130045-I-INFO DPI_task::DP_close_oldobs:  1087 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2021093130045-I-INFO DP_close_files:  ...oeck03bbq.pkx was closed
+2021093130045-I-INFO DP_close_files:  ...oeck03bbq.bdx was closed
+2021093130045-I-INFO DP_close_files:  ...oeck03bbq.ulx was closed
+2021093130045-I-INFO DP_close_files:  ...oeck03bbq.pki was closed
+2021093130045-I-INFO DP_close_files:  ...oeck03bbq.uli was closed
+2021093130045-I-INFO DPI_task::DP_close_oldobs:  Copied ...oeck03bdq.shx to ...oeck03bbq.shx
+2021093130045-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oeck03bbq ------------
+2021093133154-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oeck03bbq ------------
+2021093133154-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oeck03bbq ------------
+2021093133155-I-INFO dv_DataValidation:  -------------- Data Validation Started: oeck03bbq ------------
+2021093133155-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.093:09:36:09
+2021093133155-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.093:09:36:09 using yurintab date: 2018.249:22:15:00
+2021093133155-I-INFO dv_STIS::compare:  Mismatched weight (0) was lower than threshold (55)
+2021093133155-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oeck03bbq ------------
+2021093133155-I-INFO ----------- World Coordinate System Started: oeck03bbq ---------
+2021093133155-I-INFO ----------- World Coordinate System Ended:   oeck03bbq ---------
+2021093133155-I-INFO GC_load_...s: ...oeck03bbq.dvx maxgroup=1
+2021093133155-I-INFO GC_load_...s: ...oeck03bbq.dgx maxgroup=0
+2021093133155-I-INFO GC_load_...s: ...oeck03bbq.dcx maxgroup=1
+2021093133155-I-INFO GCO_init_obs: oeck03bbq is a WAVECAL
+2021093133155-I-INFO -------------- Generic Conversion Completed: oeck03bbq -------------
+2021093133155-I-INFO -------------- Generic Conversion Started: oeck03030:oeck03bfq -------------
+2021093130034-I-INFO -------------- Data Partitioning Started: oeck03bfq ------------
+2021093130034-I-INFO Partitioning from POD file: lz_494c_171_0000160939
+2021093130034-I-INFO OSF_PROCESSING: for oeck03bfq
+2021093130034-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021093130034-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 4347, expected pkts = 4348 (single readout), total pkts = 4348
+2021093130034-I-INFO DPI_task::DP_close_oldobs:  4347 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2021093130034-I-INFO DP_close_files:  ...oeck03bfq.pkx was closed
+2021093130034-I-INFO DP_close_files:  ...oeck03bfq.bdx was closed
+2021093130034-I-INFO DP_close_files:  ...oeck03bfq.ulx was closed
+2021093130035-I-INFO DP_close_files:  ...oeck03bfq.pki was closed
+2021093130035-I-INFO DP_close_files:  ...oeck03bfq.uli was closed
+2021093130035-I-INFO DPI_task::DP_close_oldobs:  Copied ...oeck03bhq.shx to ...oeck03bfq.shx
+2021093130035-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oeck03bfq ------------
+2021093133154-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oeck03bfq ------------
+2021093133154-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oeck03bfq ------------
+2021093133155-I-INFO dv_DataValidation:  -------------- Data Validation Started: oeck03bfq ------------
+2021093133155-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.093:10:45:53
+2021093133155-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.093:10:45:53 using yurintab date: 2018.249:22:15:00
+2021093133155-I-INFO dv_STIS::compare:  Mismatched weight (0) was lower than threshold (55)
+2021093133155-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oeck03bfq ------------
+2021093133155-I-INFO ----------- World Coordinate System Started: oeck03bfq ---------
+2021093133155-I-INFO ----------- World Coordinate System Ended:   oeck03bfq ---------
+2021093133155-I-INFO GC_load_...s: ...oeck03bfq.dvx maxgroup=1
+2021093133155-I-INFO GC_load_...s: ...oeck03bfq.dgx maxgroup=0
+2021093133155-I-INFO GC_load_...s: ...oeck03bfq.dcx maxgroup=1
+2021093133156-I-INFO -------------- Generic Conversion Completed: oeck03bfq -------------
+2021093133156-I-INFO -------------- Generic Conversion Started: oeck03030:oeck03bgq -------------
+2021093130035-I-INFO -------------- Data Partitioning Started: oeck03bgq ------------
+2021093130035-I-INFO Partitioning from POD file: lz_494c_171_0000160939
+2021093130035-I-INFO OSF_PROCESSING: for oeck03bgq
+2021093130035-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021093130035-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1087, expected pkts = 1088 (single readout), total pkts = 1088
+2021093130035-I-INFO DPI_task::DP_close_oldobs:  1087 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2021093130035-I-INFO DP_close_files:  ...oeck03bgq.pkx was closed
+2021093130035-I-INFO DP_close_files:  ...oeck03bgq.bdx was closed
+2021093130035-I-INFO DP_close_files:  ...oeck03bgq.ulx was closed
+2021093130035-I-INFO DP_close_files:  ...oeck03bgq.pki was closed
+2021093130035-I-INFO DP_close_files:  ...oeck03bgq.uli was closed
+2021093130035-I-INFO DPI_task::DP_close_oldobs:  Copied ...oeck03bhq.shx to ...oeck03bgq.shx
+2021093130035-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oeck03bgq ------------
+2021093133154-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oeck03bgq ------------
+2021093133154-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oeck03bgq ------------
+2021093133155-I-INFO dv_DataValidation:  -------------- Data Validation Started: oeck03bgq ------------
+2021093133155-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.093:11:28:10
+2021093133155-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.093:11:28:10 using yurintab date: 2018.249:22:15:00
+2021093133155-I-INFO dv_STIS::compare:  Mismatched weight (0) was lower than threshold (55)
+2021093133155-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oeck03bgq ------------
+2021093133155-I-INFO ----------- World Coordinate System Started: oeck03bgq ---------
+2021093133155-I-INFO ----------- World Coordinate System Ended:   oeck03bgq ---------
+2021093133156-I-INFO GC_load_...s: ...oeck03bgq.dvx maxgroup=1
+2021093133156-I-INFO GC_load_...s: ...oeck03bgq.dgx maxgroup=0
+2021093133156-I-INFO GC_load_...s: ...oeck03bgq.dcx maxgroup=1
+2021093133156-I-INFO GCO_init_obs: oeck03bgq is a WAVECAL
+2021093133156-I-INFO -------------- Generic Conversion Completed: oeck03bgq -------------
+2021093133156-W-WARNING Unable to find FITS file ...oeck03030_tag.fits
+2021093133156-I-INFO GCO_STIS: -------------- Generic Conversion Completed: oeck03030 ------------- 
+2021093133156-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: oeck03030 ------------
+2021093133214-I-INFO-exposure_times-Start ------ Exposure Times Updater for oeck03030 ------
+2021093133214-I-INFO-exposure_times-Using oeck03030_raw.fits
+2021093133214-I-INFO-exposure_times-For oeck03bfq, start 2021.093:10:46:06, end 2021.093:10:46:06
+2021093133214-I-INFO-exposure_times-Using oeck03030_wav.fits
+2021093133214-I-INFO-exposure_times-For oeck03bbq, start 2021.093:09:38:31, end 2021.093:09:38:47
+2021093133214-I-INFO-exposure_times-For oeck03bgq, start 2021.093:11:28:24, end 2021.093:11:28:40
+2021093133214-I-INFO-exposure_times-Updated 3 qolink_sms exposure times records.
+2021093133214-I-INFO-exposure_times-  End ------ Exposure Times Updater for oeck03030 ------
+CALBEG ------------ Sat Apr  3 13:32:20 UTC 2021------------------
+
+*** CALSTIS-0 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    03-Apr-2021 13:32:21 UTC
+2021093133221-I--------------- CALSTIS started ---------------------------------
+
+Input    oeck03030_raw.fits
+Warning  Total exposure time = 0
+         No output from current processing step.
+CALEND ------------ Sat Apr  3 13:32:22 UTC 2021 ------------------
+2021093133228 INFO src=ac_xxx_OWL.run_task fsn=oeck03030 msg="-------------- After Calibration Started for   oeck03030 --------------"
+2021093133228 INFO src=ac_xxx_OWL-asn_product_status.banner_start fsn=oeck03030 msg="Start ------  Association Product Status Updater for oeck03030  ------"
+2021093133228 INFO src=ac_xxx_OWL-asn_product_status.get_asn_table fsn=oeck03030 msg="--- ASN: ...oeck03030_asn.fits"
+2021093133228 INFO src=ac_xxx_OWL-asn_product_status.build_query_list fsn=oeck03030 msg="The product_status for OECK03030 is C"
+2021093133228 INFO src=ac_xxx_OWL-asn_product_status.asn_status_update fsn=oeck03030 msg="Updated 1 asn_members.product_status record."
+2021093133228 INFO src=ac_xxx_OWL-asn_product_status.banner_end fsn=oeck03030 msg="  End ------  Association Product Status Updater for oeck03030  ------"
+2021093133228 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2021093133228 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oeck03030 msg="Opening connection to ..., ..."
+2021093133228 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=oeck03030 msg="4 rows found for association oeck03030"
+2021093133228 INFO src=ac_xxx_OWL-hst_missionquery.get_proposal_id fsn=oeck03bbq msg="returning 16221 for oeck03bbq"
+2021093133228 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oeck03030 msg="HstScienceDataset(archive_product='oeck03030', archive_product_type='PRODUCT', dataset_type='asn', hst_db=<hst_missionquery.HST_Mission_db object at 0x2ba37b4b58e0>, instrument='sti', ipppssoot='oeck03030', log=<Logfile.Logfile object at 0x2ba379bbd430>, product_exposures={'oeck03bbq': 'AUTO-WAVECAL', 'oeck03bfq': 'SCIENCE', 'oeck03bgq': 'AUTO-WAVECAL'}, proposal_id='16221', subproducts={})"
+2021093133228 INFO src=ac_xxx_OWL.update_quality_...s fsn=oeck03030 msg="No pdq_summary_update records found for oeck03030."
+2021093133228 INFO src=ac_xxx_OWL.run_task fsn=oeck03030 msg="-------------- After Calibration Completed for oeck03030 --------------"

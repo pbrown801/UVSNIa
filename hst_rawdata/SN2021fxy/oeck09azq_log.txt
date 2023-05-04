@@ -1,0 +1,62 @@
+2021088211323-I-INFO -------------- Data Partitioning Started: oeck09azq ------------
+2021088211323-I-INFO Partitioning from POD file: lz_4902_236_0000160229
+2021088211323-I-INFO OSF_PROCESSING: for oeck09azq
+2021088211323-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021088211323-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 2, expected pkts = 3 (single readout), total pkts = 3
+2021088211323-I-INFO DPI_task::DP_close_oldobs:  2 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2021088211323-I-INFO DP_close_files:  ...oeck09azq.pkx was closed
+2021088211323-I-INFO DP_close_files:  ...oeck09azq.bdx was closed
+2021088211323-I-INFO DP_close_files:  ...oeck09azq.ulx was closed
+2021088211323-I-INFO DP_close_files:  ...oeck09azq.pki was closed
+2021088211323-I-INFO DP_close_files:  ...oeck09azq.uli was closed
+2021088211323-I-INFO DPI_task::DP_close_oldobs:  Copied ...oeck09b4q.shx to ...oeck09azq.shx
+2021088211323-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oeck09azq ------------
+2021088213606-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oeck09azq ------------
+2021088213606-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oeck09azq ------------
+2021088213607-I-INFO dv_DataValidation:  -------------- Data Validation Started: oeck09azq ------------
+2021088213607-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.088:06:57:15
+2021088213607-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.088:06:57:15 using yurintab date: 2018.249:22:15:00
+2021088213607-I-INFO dv_STIS::DV_check_if_pos:  DV mismatch: SS_NSTEP = 5, ONSTEPS = 4
+2021088213607-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 4
+2021088213607-I-INFO dv_STIS::compare:  Mismatched weight (20) was lower than threshold (55)
+2021088213607-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oeck09azq ------------
+2021088213607-I-INFO ----------- World Coordinate System Started: oeck09azq ---------
+2021088213607-I-INFO ----------- World Coordinate System Ended:   oeck09azq ---------
+2021088213607-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: oeck09azq ------------
+2021088213607-I-INFO GCO_STIS: Starting...
+2021088213607-I-INFO GCO_poll_status: ===================================================================
+2021088213607-I-INFO GCO_poll_status: -------------- Generic Conversion Processing: oeck09azq ------------- 
+2021088213607-I-INFO -------------- Generic Conversion Started: oeck09azq -------------
+2021088213607-I-INFO GC_load_...s: ...oeck09azq.dvx maxgroup=1
+2021088213607-I-INFO GC_load_...s: ...oeck09azq.dgx maxgroup=0
+2021088213607-I-INFO GC_load_...s: ...oeck09azq.dcx maxgroup=1
+2021088213607-W-WARN DBMS_asn_count_collected_exp: No records found for this query: SELECT COUNT(*) collect_count FROM qeassociation a WHERE a.association_id = @association_id AND a.alignment_id != ' ' AND a.collect='Y' 
+2021088213607-W-WARN DBMS_asn_count_collected_exp: Where @association_id is 
+2021088213607-I-INFO -------------- Generic Conversion Completed: oeck09azq -------------
+2021088213607-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: oeck09azq ------------
+2021088213639-I-INFO-exposure_times-Start ------ Exposure Times Updater for oeck09azq ------
+2021088213639-I-INFO-exposure_times-Using oeck09azq_raw.fits
+2021088213639-I-INFO-exposure_times-For oeck09azq, start 2021.088:07:00:14, end 2021.088:07:00:15
+2021088213639-I-INFO-exposure_times-Updated 1 qolink_sms exposure times record.
+2021088213639-I-INFO-exposure_times-  End ------ Exposure Times Updater for oeck09azq ------
+CALBEG ------------ Mon Mar 29 21:36:50 UTC 2021------------------
+
+*** CALSTIS-0 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    29-Mar-2021 21:36:50 UTC
+2021088213650-I--------------- CALSTIS started ---------------------------------
+
+Input    oeck09azq_raw.fits
+Warning  No calibration switch was set to PERFORM.
+         No output from current processing step.
+CALEND ------------ Mon Mar 29 21:36:50 UTC 2021 ------------------
+2021088213658 INFO src=ac_xxx_OWL.run_task fsn=oeck09azq msg="-------------- After Calibration Started for   oeck09azq --------------"
+2021088213658 INFO src=ac_xxx_OWL-asn_product_status.banner_start fsn=oeck09azq msg="Start ------  Association Product Status Updater for oeck09azq  ------"
+2021088213658 INFO src=ac_xxx_OWL-asn_product_status.asn_status_update fsn=oeck09azq msg="asn_root oeck09azq does NOT end in 0.  No update necessary.  Goodbye."
+2021088213658 INFO src=ac_xxx_OWL-asn_product_status.banner_end_no_op fsn=oeck09azq msg="  End ------  Association Product Status Updater Nothing to do for oeck09azq +  ------"
+2021088213658 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2021088213658 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oeck09azq msg="Opening connection to ..., ..."
+2021088213658 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=oeck09azq msg="0 rows found for association oeck09azq"
+2021088213658 INFO src=ac_xxx_OWL-hst_missionquery.get_proposal_id fsn=oeck09azq msg="returning 16221 for oeck09azq"
+2021088213658 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oeck09azq msg="HstScienceDataset(archive_product='oeck09azq', archive_product_type='SINGLETON', dataset_type='single', hst_db=<hst_missionquery.HST_Mission_db object at 0x2b70e20f6550>, instrument='sti', ipppssoot='oeck09azq', log=<Logfile.Logfile object at 0x2b70e20f6400>, product_exposures={'oeck09azq': 'SINGLETON'}, proposal_id='16221', subproducts={})"
+2021088213658 INFO src=ac_xxx_OWL.update_quality_...s fsn=oeck09azq msg="No pdq_summary_update records found for oeck09azq."
+2021088213658 INFO src=ac_xxx_OWL.run_task fsn=oeck09azq msg="-------------- After Calibration Completed for oeck09azq --------------"

@@ -1,0 +1,105 @@
+2022106122406-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: obnd47050 ------------
+2022106122406-I-INFO GCO_STIS: Starting...
+2022106122406-I-INFO GCO_poll_status: ===================================================================
+2022106122406-I-INFO GCO_poll_status: -------------- Generic Conversion Processing: obnd47050 ------------- 
+2022106122406-I-INFO -------------- Generic Conversion Started: obnd47050:obnd47gnq -------------
+2015098171333-I-INFO DP_open_newobs: -------------- Data Partitioning Started: obnd47gnq ------------
+2015098171333-I-INFO DP_open_newobs: Partitioning from POD file: lz_4945_226_0001770713_obnd47gnq
+2015098171333-I-INFO Search osf is ????????-p???????????????????????.obnd47gnq_______________________________-sti-???-????
+2015098171333-I-INFO Search osf is ????????-????????????????????????.obnd47gnq_______________________________-sti-???-????
+2015098171333-I-INFO Creating OSF for obnd47gnq and data_id sti with status OSF_PROCESSING
+2015098171333-I-INFO DP_close_oldobs: SDF lines = 1149, expected pkts = 1150 (single readout), total pkts = 1150
+2015098171333-I-INFO DP_close_oldobs: 1149 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2015098171333-I-INFO DP_close_files: ...obnd47gnq.pkx was closed
+2015098171333-I-INFO DP_close_files: ...obnd47gnq.bdx was closed
+2015098171333-I-INFO DP_close_files: ...obnd47gnq.ulx was closed
+2015098171333-I-INFO DP_close_files: ...obnd47gnq.pki was closed
+2015098171333-I-INFO DP_close_files: ...obnd47gnq.uli was closed
+2015098171333-I-INFO DP_close_oldobs: Copied ...obnd47gxq.shx to ...obnd47gnq.shx
+2015098171333-I-INFO DP_close_oldobs: -------------- Data Partitioning Ended:   obnd47gnq ------------
+2022106122355-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: obnd47gnq ------------
+2022106122358-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: obnd47gnq ------------
+2022106122404-I-INFO dv_DataValidation:  -------------- Data Validation Started: obnd47gnq ------------
+2022106122404-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2011.253:11:08:05
+2022106122404-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2011.253:11:08:05 using yurintab date: 2011.172:20:43:00
+2022106122404-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 4
+2022106122404-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2022106122404-I-INFO dv_DataValidation:  -------------- Data Validation Completed: obnd47gnq ------------
+2022106122404-I-INFO ----------- World Coordinate System Started: obnd47gnq ---------
+2022106122405-I-INFO ----------- World Coordinate System Ended:   obnd47gnq ---------
+2022106122406-I-INFO GC_load_...s: ...obnd47gnq.dvx maxgroup=1
+2022106122406-I-INFO GC_load_...s: ...obnd47gnq.dgx maxgroup=0
+2022106122406-I-INFO GC_load_...s: ...obnd47gnq.dcx maxgroup=1
+2022106122406-I-INFO GCO_init_obs: obnd47gnq is a WAVECAL
+2022106122407-I-INFO -------------- Generic Conversion Completed: obnd47gnq -------------
+2022106122407-I-INFO -------------- Generic Conversion Started: obnd47050:obnd47goq -------------
+2015098211543-I-INFO DP_open_newobs: -------------- Data Partitioning Started: obnd47goq ------------
+2015098211543-I-INFO DP_open_newobs: Partitioning from POD file: lz_4945_226_0001770713_obnd47goq
+2015098211543-I-INFO Search osf is ????????-p???????????????????????.obnd47goq_______________________________-sti-???-????
+2015098211543-I-INFO Search osf is ????????-????????????????????????.obnd47goq_______________________________-sti-???-????
+2015098211543-I-INFO Creating OSF for obnd47goq and data_id sti with status OSF_PROCESSING
+2015098211543-I-INFO DP_close_oldobs: SDF lines = 1149, expected pkts = 1150 (single readout), total pkts = 1150
+2015098211543-I-INFO DP_close_oldobs: 1149 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2015098211543-I-INFO DP_close_files: ...obnd47goq.pkx was closed
+2015098211543-I-INFO DP_close_files: ...obnd47goq.bdx was closed
+2015098211543-I-INFO DP_close_files: ...obnd47goq.ulx was closed
+2015098211543-I-INFO DP_close_files: ...obnd47goq.pki was closed
+2015098211543-I-INFO DP_close_files: ...obnd47goq.uli was closed
+2015098211543-I-INFO DP_close_oldobs: Copied ...obnd47gxq.shx to ...obnd47goq.shx
+2015098211543-I-INFO DP_close_oldobs: -------------- Data Partitioning Ended:   obnd47goq ------------
+2022106122358-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: obnd47goq ------------
+2022106122400-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: obnd47goq ------------
+2022106122404-I-INFO dv_DataValidation:  -------------- Data Validation Started: obnd47goq ------------
+2022106122404-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2011.253:11:09:16
+2022106122404-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2011.253:11:09:16 using yurintab date: 2011.172:20:43:00
+2022106122404-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 1
+2022106122404-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2022106122404-I-INFO dv_DataValidation:  -------------- Data Validation Completed: obnd47goq ------------
+2022106122405-I-INFO ----------- World Coordinate System Started: obnd47goq ---------
+2022106122405-I-INFO ----------- World Coordinate System Ended:   obnd47goq ---------
+2022106122407-I-INFO GC_load_...s: ...obnd47goq.dvx maxgroup=1
+2022106122407-I-INFO GC_load_...s: ...obnd47goq.dgx maxgroup=0
+2022106122407-I-INFO GC_load_...s: ...obnd47goq.dcx maxgroup=1
+2022106122408-I-INFO -------------- Generic Conversion Completed: obnd47goq -------------
+2022106122408-I-INFO -------------- Generic Conversion Started: obnd47050:obnd47gpq -------------
+2015098211543-I-INFO DP_open_newobs: -------------- Data Partitioning Started: obnd47gpq ------------
+2015098211543-I-INFO DP_open_newobs: Partitioning from POD file: lz_4945_226_0001770713_obnd47gpq
+2015098211543-I-INFO Search osf is ????????-p???????????????????????.obnd47gpq_______________________________-sti-???-????
+2015098211543-I-INFO Search osf is ????????-????????????????????????.obnd47gpq_______________________________-sti-???-????
+2015098211543-I-INFO Creating OSF for obnd47gpq and data_id sti with status OSF_PROCESSING
+2015098211543-I-INFO DP_close_oldobs: SDF lines = 1149, expected pkts = 1150 (single readout), total pkts = 1150
+2015098211543-I-INFO DP_close_oldobs: 1149 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2015098211543-I-INFO DP_close_files: ...obnd47gpq.pkx was closed
+2015098211543-I-INFO DP_close_files: ...obnd47gpq.bdx was closed
+2015098211543-I-INFO DP_close_files: ...obnd47gpq.ulx was closed
+2015098211543-I-INFO DP_close_files: ...obnd47gpq.pki was closed
+2015098211543-I-INFO DP_close_files: ...obnd47gpq.uli was closed
+2015098211543-I-INFO DP_close_oldobs: Copied ...obnd47gxq.shx to ...obnd47gpq.shx
+2015098211543-I-INFO DP_close_oldobs: -------------- Data Partitioning Ended:   obnd47gpq ------------
+2022106122400-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: obnd47gpq ------------
+2022106122402-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: obnd47gpq ------------
+2022106122404-I-INFO dv_DataValidation:  -------------- Data Validation Started: obnd47gpq ------------
+2022106122404-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2011.253:11:10:40
+2022106122404-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2011.253:11:10:40 using yurintab date: 2011.172:20:43:00
+2022106122404-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 1
+2022106122404-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2022106122404-I-INFO dv_DataValidation:  -------------- Data Validation Completed: obnd47gpq ------------
+2022106122405-I-INFO ----------- World Coordinate System Started: obnd47gpq ---------
+2022106122405-I-INFO ----------- World Coordinate System Ended:   obnd47gpq ---------
+2022106122408-I-INFO GC_load_...s: ...obnd47gpq.dvx maxgroup=1
+2022106122408-I-INFO GC_load_...s: ...obnd47gpq.dgx maxgroup=0
+2022106122408-I-INFO GC_load_...s: ...obnd47gpq.dcx maxgroup=1
+2022106122408-I-INFO -------------- Generic Conversion Completed: obnd47gpq -------------
+2022106122408-I-INFO GCO_STIS: -------------- Generic Conversion Completed: obnd47050 ------------- 
+2022106122408-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: obnd47050 ------------
+2022106122410-I-INFO-exposure_times-Start ------ Exposure Times Updater for obnd47050 ------
+2022106122410-I-INFO-exposure_times-UPDATE_EXPOSURE_TIMES is False. No update necessary.
+2022106122410-I-INFO-exposure_times-  End ------ Exposure Times Updater Nothing to do for obnd47050 ------
+2022108013926 INFO src=ac_xxx_OWL.run_task fsn=obnd47050 msg="-------------- After Calibration Started for   obnd47050 --------------"
+2022108013926 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2022108013926 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=obnd47050 msg="Opening connection to ..., ..."
+2022108013926 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=obnd47050 msg="4 rows found for association obnd47050"
+2022108013926 INFO src=ac_xxx_OWL-hst_missionquery.get_proposal_id fsn=obnd47gnq msg="returning 12298 for obnd47gnq"
+2022108013926 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=obnd47050 msg="HstScienceDataset(archive_product='obnd47050', archive_product_type='PRODUCT', dataset_type='asn', hst_db=<hst_missionquery.HST_Mission_db object at 0x2b13e2f61bb0>, instrument='sti', ipppssoot='obnd47050', log=<Logfile.Logfile object at 0x2b13e2f61490>, product_exposures={'obnd47gnq': 'AUTO-WAVECAL', 'obnd47goq': 'CRSPLIT', 'obnd47gpq': 'CRSPLIT'}, proposal_id='12298', subproducts={})"
+2022108013926 INFO src=ac_xxx_OWL.update_quality_...s fsn=obnd47050 msg="No pdq_summary_update records found for obnd47050."
+2022108013926 INFO src=ac_xxx_OWL.run_task fsn=obnd47050 msg="-------------- After Calibration Completed for obnd47050 --------------"

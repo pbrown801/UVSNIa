@@ -1,0 +1,34 @@
+
+SNname   \deltam15 opticalsource  UV spectral source
+
+SN2016ccj 0.67 1
+ASASSN-14lp 0.80 2,3
+SN2013dy 0.92 4
+SN2021fxy 1.05 5
+SN2011fe  1.05  6
+SN2017erp 1.11 7
+SN2011by 1.14  8
+SN2015F  1.26  3
+SN2022hrs  1.3 9
+SN1992A    1.47   10,11
+SN2011iv  1.77   12
+
+
+(1) Brown et al.  in prep
+(2) \citet{Shappee_etal_2016} https://ui.adsabs.harvard.edu/abs/2016ApJ...826..144S/abstract   
+(3) \citet{Foley_etal_2016}  https://ui.adsabs.harvard.edu/abs/2016MNRAS.461.1308F/abstract 
+(4) \citet{Pan_etal_2015}   https://ui.adsabs.harvard.edu/abs/2015MNRAS.452.4307P/abstract
+(5) \citet{DerKacy_etal_2023}
+(6) \citet{Mazzali_etal_2014} https://ui.adsabs.harvard.edu/abs/2014MNRAS.439.1959M/abstract
+(7) \citet{Brown_etal_2019} https://ui.adsabs.harvard.edu/abs/2019ApJ...877..152B/abstract
+(8) \citet{Foley_Kirshner_2013} https://ui.adsabs.harvard.edu/abs/2013ApJ...769L...1F/abstract
+(9) Brown et al. in prep
+(10) \citet{Phillips_etal_1999}  https://ui.adsabs.harvard.edu/abs/1999AJ....118.1766P/abstract
+(11) \citet{Kirshner_etal_1993}  https://articles.adsabs.harvard.edu/pdf/1993ApJ...415..589K
+(12)  \citet{Gall_etal_2018} https://ui.adsabs.harvard.edu/abs/2018A%26A...611A..58G/abstract
+
+
+To model the intrinsic light of the supernova, we use the observed ultraviolet spectra of the sample of SNe Ia listed in Table \ref{table_templates}.  We also use the UV model from \citet{Foley_etal_2016UV} as a function of \dmb15 created at intervals of 0.1.  The UV model was created using most of the spectra we use; in areas of \dmb15 not sampled it provides an interpolation and in areas more densely sampled it averages over the differences of e.g. SNe 2011by and 2011fe \citep{Foley_Kirshner_2013}.  The addition of SNe 2017erp, 2021fxy, and 2022hrs probe the UV fainter extremes \citep{Brown_etal_2019,DerKacy_etal_2023}, and SN~2016ccj matches the so-called ``Super-Chandra'' or SN2003fg-like SNe (Brown et al. in preparation).  As the spectra will be modified by positive and negative reddening before matching to the observed photometry we do not correct these spectra for MW or host reddening.
+
+The photometric comparisons require spectra to cover the 1600 -- 6000 \AA range in both the observer frame and the corresponding rest frame of the SN.  As the HST/STIS NUV-MAMA/230L or CCD/230LB response ends there, we supplement the short wavelength end by scaling the 2011 Sep 13 spectrum of SN~2011fe which included the FUV-MAMA/140L \citep{Mazzali_etal_2013} to match the approximate flux of each SN in the 1600-1800 \AA range and splice it to the near-UV spectrum.  As the G430L spectra end at 5600 \AA, an optical spectrum was similarly scaled and spliced at that end if a CCD/750L STIS observation is not available.  The SN~1992A spectrum from \citet{Kirshner_etal_1993} covers the whole range.
+

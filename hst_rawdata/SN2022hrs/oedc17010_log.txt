@@ -1,0 +1,102 @@
+2022144201050-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: oedc17010 ------------
+2022144201050-I-INFO GCO_STIS: Starting...
+2022144201050-I-INFO GCO_poll_status: ===================================================================
+2022144201050-I-INFO GCO_poll_status: -------------- Generic Conversion Processing: oedc17010 ------------- 
+2022144201050-I-INFO -------------- Generic Conversion Started: oedc17010:oedc17bkq -------------
+2022143121840-I-INFO -------------- Data Partitioning Started: oedc17bkq ------------
+2022143121840-I-INFO Partitioning from POD file: lz_4901_270_0000212937
+2022143121840-I-INFO OSF_PROCESSING: for oedc17bkq
+2022143121840-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2022143121840-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1149, expected pkts = 1150 (single readout), total pkts = 1150
+2022143121840-I-INFO DPI_task::DP_close_oldobs:  1149 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2022143121840-I-INFO DP_close_files:  ...oedc17bkq.pkx was closed
+2022143121840-I-INFO DP_close_files:  ...oedc17bkq.bdx was closed
+2022143121840-I-INFO DP_close_files:  ...oedc17bkq.ulx was closed
+2022143121840-I-INFO DP_close_files:  ...oedc17bkq.pki was closed
+2022143121840-I-INFO DP_close_files:  ...oedc17bkq.uli was closed
+2022143121840-I-INFO DPI_task::DP_close_oldobs:  Copied ...oedc17bnq.shx to ...oedc17bkq.shx
+2022143121840-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oedc17bkq ------------
+2022144201047-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oedc17bkq ------------
+2022144201047-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oedc17bkq ------------
+2022144201049-I-INFO dv_DataValidation:  -------------- Data Validation Started: oedc17bkq ------------
+2022144201049-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2022.143:09:41:58
+2022144201049-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2022.143:09:41:58 using yurintab date: 2018.249:22:15:00
+2022144201049-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 4
+2022144201049-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2022144201049-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oedc17bkq ------------
+2022144201049-I-INFO ----------- World Coordinate System Started: oedc17bkq ---------
+2022144201049-I-INFO ----------- World Coordinate System Ended:   oedc17bkq ---------
+2022144201050-I-INFO GC_load_...s: ...oedc17bkq.dvx maxgroup=1
+2022144201050-I-INFO GC_load_...s: ...oedc17bkq.dgx maxgroup=0
+2022144201050-I-INFO GC_load_...s: ...oedc17bkq.dcx maxgroup=1
+2022144201050-I-INFO GCO_init_obs: oedc17bkq is a WAVECAL
+2022144201051-I-INFO -------------- Generic Conversion Completed: oedc17bkq -------------
+2022144201051-I-INFO -------------- Generic Conversion Started: oedc17010:oedc17blq -------------
+2022143121840-I-INFO -------------- Data Partitioning Started: oedc17blq ------------
+2022143121840-I-INFO Partitioning from POD file: lz_4901_270_0000212937
+2022143121840-I-INFO OSF_PROCESSING: for oedc17blq
+2022143121840-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2022143121840-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1149, expected pkts = 1150 (single readout), total pkts = 1150
+2022143121840-I-INFO DPI_task::DP_close_oldobs:  1149 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2022143121840-I-INFO DP_close_files:  ...oedc17blq.pkx was closed
+2022143121840-I-INFO DP_close_files:  ...oedc17blq.bdx was closed
+2022143121840-I-INFO DP_close_files:  ...oedc17blq.ulx was closed
+2022143121840-I-INFO DP_close_files:  ...oedc17blq.pki was closed
+2022143121840-I-INFO DP_close_files:  ...oedc17blq.uli was closed
+2022143121840-I-INFO DPI_task::DP_close_oldobs:  Copied ...oedc17bnq.shx to ...oedc17blq.shx
+2022143121840-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oedc17blq ------------
+2022144201047-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oedc17blq ------------
+2022144201048-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oedc17blq ------------
+2022144201049-I-INFO dv_DataValidation:  -------------- Data Validation Started: oedc17blq ------------
+2022144201049-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2022.143:09:43:09
+2022144201049-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2022.143:09:43:09 using yurintab date: 2018.249:22:15:00
+2022144201049-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 1
+2022144201049-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2022144201049-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oedc17blq ------------
+2022144201049-I-INFO ----------- World Coordinate System Started: oedc17blq ---------
+2022144201049-I-INFO ----------- World Coordinate System Ended:   oedc17blq ---------
+2022144201051-I-INFO GC_load_...s: ...oedc17blq.dvx maxgroup=1
+2022144201051-I-INFO GC_load_...s: ...oedc17blq.dgx maxgroup=0
+2022144201051-I-INFO GC_load_...s: ...oedc17blq.dcx maxgroup=1
+2022144201052-I-INFO -------------- Generic Conversion Completed: oedc17blq -------------
+2022144201053-I-INFO -------------- Generic Conversion Started: oedc17010:oedc17bmq -------------
+2022143121841-I-INFO -------------- Data Partitioning Started: oedc17bmq ------------
+2022143121841-I-INFO Partitioning from POD file: lz_4902_290_0000212939
+2022143121841-I-INFO OSF_PROCESSING: for oedc17bmq
+2022143121841-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2022143121841-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1149, expected pkts = 1150 (single readout), total pkts = 1150
+2022143121841-I-INFO DPI_task::DP_close_oldobs:  1149 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2022143121841-I-INFO DP_close_files:  ...oedc17bmq.pkx was closed
+2022143121841-I-INFO DP_close_files:  ...oedc17bmq.bdx was closed
+2022143121841-I-INFO DP_close_files:  ...oedc17bmq.ulx was closed
+2022143121841-I-INFO DP_close_files:  ...oedc17bmq.pki was closed
+2022143121841-I-INFO DP_close_files:  ...oedc17bmq.uli was closed
+2022143121841-I-INFO DPI_task::DP_close_oldobs:  Copied ...oedc17boq.shx to ...oedc17bmq.shx
+2022143121841-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oedc17bmq ------------
+2022144201048-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oedc17bmq ------------
+2022144201048-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oedc17bmq ------------
+2022144201049-I-INFO dv_DataValidation:  -------------- Data Validation Started: oedc17bmq ------------
+2022144201049-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2022.143:09:49:47
+2022144201049-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2022.143:09:49:47 using yurintab date: 2018.249:22:15:00
+2022144201049-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 1
+2022144201049-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2022144201049-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oedc17bmq ------------
+2022144201049-I-INFO ----------- World Coordinate System Started: oedc17bmq ---------
+2022144201049-I-INFO ----------- World Coordinate System Ended:   oedc17bmq ---------
+2022144201053-I-INFO GC_load_...s: ...oedc17bmq.dvx maxgroup=1
+2022144201053-I-INFO GC_load_...s: ...oedc17bmq.dgx maxgroup=0
+2022144201053-I-INFO GC_load_...s: ...oedc17bmq.dcx maxgroup=1
+2022144201053-I-INFO -------------- Generic Conversion Completed: oedc17bmq -------------
+2022144201053-I-INFO GCO_STIS: -------------- Generic Conversion Completed: oedc17010 ------------- 
+2022144201053-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: oedc17010 ------------
+2022144201057-I-INFO-exposure_times-Start ------ Exposure Times Updater for oedc17010 ------
+2022144201057-I-INFO-exposure_times-UPDATE_EXPOSURE_TIMES is False. No update necessary.
+2022144201057-I-INFO-exposure_times-  End ------ Exposure Times Updater Nothing to do for oedc17010 ------
+2022144203417 INFO src=ac_xxx_OWL.run_task fsn=oedc17010 msg="-------------- After Calibration Started for   oedc17010 --------------"
+2022144203417 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2022144203417 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oedc17010 msg="Opening connection to ..., ..."
+2022144203417 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=oedc17010 msg="4 rows found for association oedc17010"
+2022144203417 INFO src=ac_xxx_OWL-hst_missionquery.get_proposal_id fsn=oedc17bkq msg="returning 16190 for oedc17bkq"
+2022144203417 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oedc17010 msg="HstScienceDataset(archive_product='oedc17010', archive_product_type='PRODUCT', dataset_type='asn', hst_db=<hst_missionquery.HST_Mission_db object at 0x2b615a469be0>, instrument='sti', ipppssoot='oedc17010', log=<Logfile.Logfile object at 0x2b615a4694c0>, product_exposures={'oedc17bkq': 'AUTO-WAVECAL', 'oedc17blq': 'CRSPLIT', 'oedc17bmq': 'CRSPLIT'}, proposal_id='16190', subproducts={})"
+2022144203417 INFO src=ac_xxx_OWL.update_quality_...s fsn=oedc17010 msg="No pdq_summary_update records found for oedc17010."
+2022144203417 INFO src=ac_xxx_OWL.run_task fsn=oedc17010 msg="-------------- After Calibration Completed for oedc17010 --------------"

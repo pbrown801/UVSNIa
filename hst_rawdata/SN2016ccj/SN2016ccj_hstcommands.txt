@@ -1,0 +1,27 @@
+fdump ocwq01020_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2016ccj_uv_20160514_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocwq01030_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2016ccj_uv_20160514_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocwq01010_sx1.fits columns="wavelength,flux,error,dq" outfile=SN2016ccj_opt_20160514_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+###################
+
+fdump ocwq02020_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2016ccj_uv_20160521_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocwq02030_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2016ccj_uv_20160521_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocwq02010_sx1.fits columns="wavelength,flux,error,dq" outfile=SN2016ccj_opt_20160521_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+###################
+
+fdump ocwq03020_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2016ccj_uv_20160529_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocwq03030_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2016ccj_uv_20160529_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocwq03040_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2016ccj_uv_20160529_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocwq03010_sx1.fits columns="wavelength,flux,error,dq" outfile=SN2016ccj_opt_20160529_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+###################
+
+

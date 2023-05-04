@@ -1,0 +1,15 @@
+fdump obnd47050_sx1.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2011fe_G750L_20110910.4.dat
+# 
+
+fdump obnd47030_sx1.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2011fe_G430L_20110910.4.dat
+# 
+
+fdump obnd47020_sx1.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2011fe_G230LB_20110910.4.dat
+# 
+
+#fdump obnd47060_sx1.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2011fe_G750L_20110910.4.dat
+# 
+
+fdump obnd47040_sx1.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2011fe_G430L_20110910.4.dat
+# 
+

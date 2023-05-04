@@ -1,0 +1,36 @@
+fdump oeck09010_sx1.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_nuv_20210329_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump oeck09020_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_muv_20210329_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump oeck09030_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_muv_20210329_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump oeck09040_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_muv_20210329_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump oeck10010_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_muv_20210330_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump oeck10020_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_muv_20210330_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+###################
+
+
+fdump oeck02010_sx1.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_nuv_20210401_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump oeck02020_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_muv_20210401_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+########
+
+#####  garbage from star tracker loss   fdump oeck03010_sx1.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_nuv_20210403_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+#####  garbage from star tracker loss   fdump oeck03020_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_muv_20210403_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+#############
+fdump oeck04010_sx1.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_nuv_20210408_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump oeck04020_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_muv_20210408_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump oeck04030_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_muv_20210408_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump oeck04040_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2021fxy_muv_20210408_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+

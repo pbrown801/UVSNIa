@@ -1,0 +1,30 @@
+fdump ld30a1010_x1dsum.fits\[1\] columns="wavelength,flux,error" outfile=ASASSN-15lh_fuv_20151229_all.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ld30a1010_x1dsum.fits\[1\] columns="wavelength,flux,error,dq" outfile=ASASSN-15lh_fuv_20151229_col.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+# separate exposures
+fdump ld30a1010_x1dsum1.fits\[1\] columns="wavelength,flux,error" outfile=ASASSN-15lh_fuv_20151229_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ld30a1010_x1dsum2.fits\[1\] columns="wavelength,flux,error" outfile=ASASSN-15lh_fuv_20151229_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ld30a1010_x1dsum3.fits\[1\] columns="wavelength,flux,error" outfile=ASASSN-15lh_fuv_20151229_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ld30a1010_x1dsum4.fits\[1\] columns="wavelength,flux,error" outfile=ASASSN-15lh_fuv_20151229_4.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+# separate exposures wit dq
+fdump ld30a1010_x1dsum1.fits\[1\] columns="wavelength,flux,error,dq" outfile=ASASSN-15lh_fuv_20151229_1dq.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ld30a1010_x1dsum2.fits\[1\] columns="wavelength,flux,error,dq" outfile=ASASSN-15lh_fuv_20151229_2dq.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ld30a1010_x1dsum3.fits\[1\] columns="wavelength,flux,error,dq" outfile=ASASSN-15lh_fuv_20151229_3dq.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ld30a1010_x1dsum4.fits\[1\] columns="wavelength,flux,error,dq" outfile=ASASSN-15lh_fuv_20151229_4dq.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump od3001020_x1d.fits\[1\] columns="wavelength,flux,error" outfile=ASASSN-15lh_muv_20151229_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump od3001020_x1d.fits\[1\] columns="wavelength,flux,error,dq" outfile=ASASSN-15lh_muv_20151229_col.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump od3001010_sx1.fits\[1\] columns="wavelength,flux,error" outfile=ASASSN-15lh_nuv_20151229_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump od3001010_sx1.fits\[1\] columns="wavelength,flux,error,dq" outfile=ASASSN-15lh_nuv_20151229_col.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+fdump lb8710060_x1dsum.fits\[1\] columns="wavelength,flux,error" outfile=airglow_fuv_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+

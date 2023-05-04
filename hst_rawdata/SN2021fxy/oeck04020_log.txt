@@ -1,0 +1,627 @@
+2021098143558-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: oeck04020 ------------
+2021098143558-I-INFO GCO_STIS: Starting...
+2021098143558-I-INFO GCO_poll_status: ===================================================================
+2021098143558-I-INFO GCO_poll_status: -------------- Generic Conversion Processing: oeck04020 ------------- 
+2021098143558-I-INFO -------------- Generic Conversion Started: oeck04020:oeck04rsq -------------
+2021098142547-I-INFO -------------- Data Partitioning Started: oeck04rsq ------------
+2021098142547-I-INFO Partitioning from POD file: lz_4931_211_0000161621
+2021098142547-I-INFO OSF_PROCESSING: for oeck04rsq
+2021098142547-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021098142547-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1087, expected pkts = 1088 (single readout), total pkts = 1088
+2021098142547-I-INFO DPI_task::DP_close_oldobs:  1087 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2021098142547-I-INFO DP_close_files:  ...oeck04rsq.pkx was closed
+2021098142547-I-INFO DP_close_files:  ...oeck04rsq.bdx was closed
+2021098142547-I-INFO DP_close_files:  ...oeck04rsq.ulx was closed
+2021098142547-I-INFO DP_close_files:  ...oeck04rsq.pki was closed
+2021098142547-I-INFO DP_close_files:  ...oeck04rsq.uli was closed
+2021098142547-I-INFO DPI_task::DP_close_oldobs:  Copied ...oeck04ruq.shx to ...oeck04rsq.shx
+2021098142547-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oeck04rsq ------------
+2021098143556-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oeck04rsq ------------
+2021098143556-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oeck04rsq ------------
+2021098143558-I-INFO dv_DataValidation:  -------------- Data Validation Started: oeck04rsq ------------
+2021098143558-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.098:08:43:43
+2021098143558-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.098:08:43:43 using yurintab date: 2018.249:22:15:00
+2021098143558-I-INFO dv_STIS::compare:  Mismatched weight (0) was lower than threshold (55)
+2021098143558-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oeck04rsq ------------
+2021098143558-I-INFO ----------- World Coordinate System Started: oeck04rsq ---------
+2021098143558-I-INFO ----------- World Coordinate System Ended:   oeck04rsq ---------
+2021098143558-I-INFO GC_load_...s: ...oeck04rsq.dvx maxgroup=1
+2021098143558-I-INFO GC_load_...s: ...oeck04rsq.dgx maxgroup=0
+2021098143558-I-INFO GC_load_...s: ...oeck04rsq.dcx maxgroup=1
+2021098143558-I-INFO GCO_init_obs: oeck04rsq is a WAVECAL
+2021098143559-I-INFO -------------- Generic Conversion Completed: oeck04rsq -------------
+2021098143559-I-INFO -------------- Generic Conversion Started: oeck04020:oeck04rtq -------------
+2021098142546-I-INFO -------------- Data Partitioning Started: oeck04rtq ------------
+2021098142546-I-INFO Partitioning from POD file: lz_4932_211_0000161623
+2021098142546-I-INFO OSF_PROCESSING: for oeck04rtq
+2021098142546-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021098142546-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 4347, expected pkts = 4348 (single readout), total pkts = 4348
+2021098142546-I-INFO DPI_task::DP_close_oldobs:  4347 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2021098142546-I-INFO DP_close_files:  ...oeck04rtq.pkx was closed
+2021098142546-I-INFO DP_close_files:  ...oeck04rtq.bdx was closed
+2021098142546-I-INFO DP_close_files:  ...oeck04rtq.ulx was closed
+2021098142546-I-INFO DP_close_files:  ...oeck04rtq.pki was closed
+2021098142546-I-INFO DP_close_files:  ...oeck04rtq.uli was closed
+2021098142546-I-INFO DPI_task::DP_close_oldobs:  Copied ...oeck04rvq.shx to ...oeck04rtq.shx
+2021098142546-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oeck04rtq ------------
+2021098143556-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oeck04rtq ------------
+2021098143557-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oeck04rtq ------------
+2021098143558-I-INFO dv_DataValidation:  -------------- Data Validation Started: oeck04rtq ------------
+2021098143558-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.098:08:47:16
+2021098143558-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.098:08:47:16 using yurintab date: 2018.249:22:15:00
+2021098143558-I-INFO dv_STIS::compare:  Mismatched weight (0) was lower than threshold (55)
+2021098143558-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oeck04rtq ------------
+2021098143558-I-INFO ----------- World Coordinate System Started: oeck04rtq ---------
+2021098143558-I-INFO ----------- World Coordinate System Ended:   oeck04rtq ---------
+2021098143559-I-INFO GC_load_...s: ...oeck04rtq.dvx maxgroup=1
+2021098143559-I-INFO GC_load_...s: ...oeck04rtq.dgx maxgroup=0
+2021098143559-I-INFO GC_load_...s: ...oeck04rtq.dcx maxgroup=1
+2021098143559-I-INFO -------------- Generic Conversion Completed: oeck04rtq -------------
+2021098143559-I-INFO -------------- Generic Conversion Started: oeck04020:oeck04s0q -------------
+2021098142600-I-INFO -------------- Data Partitioning Started: oeck04s0q ------------
+2021098142600-I-INFO Partitioning from POD file: lz_4933_209_0000161625
+2021098142601-I-INFO OSF_PROCESSING: for oeck04s0q
+2021098142601-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021098142601-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1087, expected pkts = 1088 (single readout), total pkts = 1088
+2021098142601-I-INFO DPI_task::DP_close_oldobs:  1087 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2021098142601-I-INFO DP_close_files:  ...oeck04s0q.pkx was closed
+2021098142601-I-INFO DP_close_files:  ...oeck04s0q.bdx was closed
+2021098142601-I-INFO DP_close_files:  ...oeck04s0q.ulx was closed
+2021098142601-I-INFO DP_close_files:  ...oeck04s0q.pki was closed
+2021098142601-I-INFO DP_close_files:  ...oeck04s0q.uli was closed
+2021098142601-I-INFO DPI_task::DP_close_oldobs:  Copied ...oeck04s1q.shx to ...oeck04s0q.shx
+2021098142601-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oeck04s0q ------------
+2021098143557-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oeck04s0q ------------
+2021098143557-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oeck04s0q ------------
+2021098143558-I-INFO dv_DataValidation:  -------------- Data Validation Started: oeck04s0q ------------
+2021098143558-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.098:10:35:38
+2021098143558-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.098:10:35:38 using yurintab date: 2018.249:22:15:00
+2021098143558-I-INFO dv_STIS::compare:  Mismatched weight (0) was lower than threshold (55)
+2021098143558-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oeck04s0q ------------
+2021098143558-I-INFO ----------- World Coordinate System Started: oeck04s0q ---------
+2021098143558-I-INFO ----------- World Coordinate System Ended:   oeck04s0q ---------
+2021098143559-I-INFO GC_load_...s: ...oeck04s0q.dvx maxgroup=1
+2021098143559-I-INFO GC_load_...s: ...oeck04s0q.dgx maxgroup=0
+2021098143559-I-INFO GC_load_...s: ...oeck04s0q.dcx maxgroup=1
+2021098143559-I-INFO GCO_init_obs: oeck04s0q is a WAVECAL
+2021098143559-I-INFO -------------- Generic Conversion Completed: oeck04s0q -------------
+2021098143559-W-WARNING Unable to find FITS file ...oeck04020_tag.fits
+2021098143559-I-INFO GCO_STIS: -------------- Generic Conversion Completed: oeck04020 ------------- 
+2021098143559-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: oeck04020 ------------
+2021098143618-I-INFO-exposure_times-Start ------ Exposure Times Updater for oeck04020 ------
+2021098143618-I-INFO-exposure_times-Using oeck04020_raw.fits
+2021098143618-I-INFO-exposure_times-For oeck04rtq, start 2021.098:08:47:28, end 2021.098:09:00:04
+2021098143618-I-INFO-exposure_times-Using oeck04020_wav.fits
+2021098143618-I-INFO-exposure_times-For oeck04rsq, start 2021.098:08:46:04, end 2021.098:08:46:20
+2021098143618-I-INFO-exposure_times-For oeck04s0q, start 2021.098:10:35:51, end 2021.098:10:36:07
+2021098143619-I-INFO-exposure_times-Updated 3 qolink_sms exposure times records.
+2021098143619-I-INFO-exposure_times-  End ------ Exposure Times Updater for oeck04020 ------
+CALBEG ------------ Thu Apr  8 14:36:26 UTC 2021------------------
+
+*** CALSTIS-0 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    08-Apr-2021 14:36:28 UTC
+2021098143628-I--------------- CALSTIS started ---------------------------------
+
+Input    oeck04020_raw.fits
+Wavecal  oeck04020_wav.fits
+
+*** CALSTIS-1 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    08-Apr-2021 14:36:28 UTC
+2021098143628-I--------------- CALSTIS-1 started -------------------------------
+Input    oeck04020_raw.fits
+Output   oeck04020_flt.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G230L
+DETECTOR NUV-MAMA
+2021098143628-I--------------- Begin processing: OECK04020 ---------------------
+
+Imset 1  Begin 14:36:28 UTC
+2021098143628-I--------------- Input read into memory: OECK04020 ---------------
+         Heliocentric radial velocity = -3.448 (km/s)
+
+DQICORR  PERFORM
+DQITAB   oref$v2s21472o_bpx.fits
+DQITAB   PEDIGREE=INFLIGHT 14/05/1997 19/07/2010
+DQITAB   DESCRIP =bpixtab updated with vignetted corners. opt_elem column added.-----
+DQICORR  COMPLETE
+2021098143628-I--------------- DQICORR complete: OECK04020 ---------------------
+         Uncertainty array initialized.
+2021098143628-I--------------- Uncertainty array initialized: OECK04020 --------
+
+LORSCORR PERFORM
+LORSCORR COMPLETE
+2021098143628-I--------------- LORSCORR complete: OECK04020 --------------------
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  oref$j9r16559o_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =T. Danks gathered Info
+MLINTAB  DESCRIP =T. Danks Gathered Info
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+2021098143628-I--------------- Nonlinearity corr. complete: OECK04020 ----------
+
+DARKCORR PERFORM
+DARKFILE oref$tcl1742bo_drk.fits
+DARKFILE PEDIGREE=INFLIGHT 06/01/2009
+DARKFILE DESCRIP =Avg of 72 post-SM4 dark frames from 11395, 11402 and 11857---------
+TDCTAB   oref$36k1559ko_tdc.fits
+TDCTAB   PEDIGREE=INFLIGHT 01/01/2014 10/06/2019
+TDCTAB   DESCRIP =Post-SM4 dark correction table with 2 additional break points.
+         Dark reference image was scaled by the factor 1.45386, \
+         in addition to the exposure time.
+DARKCORR COMPLETE
+2021098143628-I--------------- DARKCORR complete: OECK04020 --------------------
+
+FLATCORR PERFORM
+PFLTFILE oref$mbj1658do_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 17/04/1998 17/05/2002
+PFLTFILE DESCRIP =On-orbit NUV P-flat created from proposals 7647,8429,8863,8923
+LFLTFILE oref$h5s1140ko_lfl.fits
+LFLTFILE PEDIGREE=DUMMY
+LFLTFILE DESCRIP =Dummy file created by R. Katsanis
+FLATCORR COMPLETE
+2021098143628-I--------------- FLATCORR complete: OECK04020 --------------------
+
+PHOTCORR OMIT
+
+DOPPCORR OMIT
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+2021098143628-I--------------- STATFLAG complete: OECK04020 --------------------
+2021098143629-I--------------- Output written to disk: OECK04020 ---------------
+Imset 1  End 14:36:29 UTC
+
+End      08-Apr-2021 14:36:29 UTC
+
+*** CALSTIS-1 complete ***
+2021098143629-I--------------- CALSTIS-1 completed: OECK04020 ------------------
+
+*** CALSTIS-1 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    08-Apr-2021 14:36:29 UTC
+2021098143629-I--------------- CALSTIS-1 started -------------------------------
+Input    oeck04020_wav.fits
+Output   oeck04020_fwv_tmp.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G230L
+DETECTOR NUV-MAMA
+2021098143629-I--------------- Begin processing: OECK04020 ---------------------
+
+Imset 1  Begin 14:36:29 UTC
+2021098143629-I--------------- Input read into memory: OECK04020 ---------------
+
+DQICORR  PERFORM
+DQITAB   oref$v2s21472o_bpx.fits
+DQITAB   PEDIGREE=INFLIGHT 14/05/1997 19/07/2010
+DQITAB   DESCRIP =bpixtab updated with vignetted corners. opt_elem column added.-----
+DQICORR  COMPLETE
+2021098143629-I--------------- DQICORR complete: OECK04020 ---------------------
+         Uncertainty array initialized.
+2021098143629-I--------------- Uncertainty array initialized: OECK04020 --------
+
+LORSCORR OMIT
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  oref$j9r16559o_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =T. Danks gathered Info
+MLINTAB  DESCRIP =T. Danks Gathered Info
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+2021098143629-I--------------- Nonlinearity corr. complete: OECK04020 ----------
+
+DARKCORR PERFORM
+DARKFILE oref$tcl1742bo_drk.fits
+DARKFILE PEDIGREE=INFLIGHT 06/01/2009
+DARKFILE DESCRIP =Avg of 72 post-SM4 dark frames from 11395, 11402 and 11857---------
+TDCTAB   oref$36k1559ko_tdc.fits
+TDCTAB   PEDIGREE=INFLIGHT 01/01/2014 10/06/2019
+TDCTAB   DESCRIP =Post-SM4 dark correction table with 2 additional break points.
+         Dark reference image was scaled by the factor 1.45386, \
+         in addition to the exposure time.
+DARKCORR COMPLETE
+2021098143629-I--------------- DARKCORR complete: OECK04020 --------------------
+
+FLATCORR PERFORM
+PFLTFILE oref$mbj1658do_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 17/04/1998 17/05/2002
+PFLTFILE DESCRIP =On-orbit NUV P-flat created from proposals 7647,8429,8863,8923
+LFLTFILE oref$h5s1140ko_lfl.fits
+LFLTFILE PEDIGREE=DUMMY
+LFLTFILE DESCRIP =Dummy file created by R. Katsanis
+FLATCORR COMPLETE
+2021098143629-I--------------- FLATCORR complete: OECK04020 --------------------
+
+PHOTCORR OMIT
+
+DOPPCORR OMIT
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+2021098143629-I--------------- STATFLAG complete: OECK04020 --------------------
+2021098143629-I--------------- Output written to disk: OECK04020 ---------------
+Imset 1  End 14:36:29 UTC
+
+Imset 2  Begin 14:36:29 UTC
+2021098143629-I--------------- Input read into memory: OECK04020 ---------------
+
+DQICORR  PERFORM
+DQICORR  COMPLETE
+2021098143629-I--------------- DQICORR complete: OECK04020 ---------------------
+         Uncertainty array initialized.
+2021098143629-I--------------- Uncertainty array initialized: OECK04020 --------
+
+LORSCORR OMIT
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+2021098143629-I--------------- Nonlinearity corr. complete: OECK04020 ----------
+
+DARKCORR PERFORM
+         Dark reference image was scaled by the factor 1.57283, \
+         in addition to the exposure time.
+DARKCORR COMPLETE
+2021098143630-I--------------- DARKCORR complete: OECK04020 --------------------
+
+FLATCORR PERFORM
+FLATCORR COMPLETE
+2021098143630-I--------------- FLATCORR complete: OECK04020 --------------------
+
+DOPPCORR OMIT
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+2021098143630-I--------------- STATFLAG complete: OECK04020 --------------------
+2021098143630-I--------------- Output written to disk: OECK04020 ---------------
+Imset 2  End 14:36:30 UTC
+
+End      08-Apr-2021 14:36:30 UTC
+
+*** CALSTIS-1 complete ***
+2021098143630-I--------------- CALSTIS-1 completed: OECK04020 ------------------
+
+*** CALSTIS-7 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    08-Apr-2021 14:36:30 UTC
+2021098143630-I--------------- CALSTIS-7 started -------------------------------
+Input    oeck04020_fwv_tmp.fits
+Output   oeck04020_w2d_tmp.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G230L
+DETECTOR NUV-MAMA
+2021098143630-I--------------- Begin processing: OECK04020 ---------------------
+Imset 1  Begin 14:36:30 UTC
+
+Order 1  Begin 14:36:30 UTC
+         Delta = -0.00733 arcsec.
+         trace was rotated by = -0.00809598 degree.
+
+X2DCORR  PERFORM
+DISPCORR PERFORM
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 13/06/2017
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Microscope Meas./Hartig Post-launch Offsets
+SDCTAB   oref$16j1600bo_sdc.fits
+SDCTAB   PEDIGREE=INFLIGHT 09/07/1997 13/06/2017
+SDCTAB   DESCRIP =Co-aligned fiducial bars via an update to the CDELT2 plate scales.-
+SDCTAB   DESCRIP =CDELT2 updated with inflight data, others Lindler/prelaunch
+DISPTAB  oref$m7p16111o_dsp.fits
+DISPTAB  PEDIGREE=INFLIGHT 23/01/1999 23/01/1999
+DISPTAB  DESCRIP =Dispersion coefficients reference table
+DISPTAB  DESCRIP =INFLIGHT Cal. Disp. Coeffs
+INANGTAB oref$l3m1437ro_iac.fits
+INANGTAB PEDIGREE=GROUND
+INANGTAB DESCRIP =Prelaunch Calibration/Lindler and Models
+INANGTAB DESCRIP =Prelaunch Calibration/Lindler
+SPTRCTAB oref$q8l14502o_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 02/09/1997
+SPTRCTAB DESCRIP =New G230L traces and updated Echelle A2CENTER values
+SPTRCTAB DESCRIP =Lindler...Holfeltz postlaunch calibration
+2021098143630-I--------------- 2-D rectification complete: OECK04020 -----------
+2021098143630-I--------------- STATFLAG complete: OECK04020 --------------------
+X2DCORR  COMPLETE
+DISPCORR COMPLETE
+Order 1  End 14:36:30 UTC
+2021098143630-I--------------- Output written to disk: OECK04020 ---------------
+Imset 1  End 14:36:30 UTC
+Imset 2  Begin 14:36:30 UTC
+
+Order 1  Begin 14:36:30 UTC
+         Delta = -0.00733 arcsec.
+         trace was rotated by = -0.00809612 degree.
+
+X2DCORR  PERFORM
+DISPCORR PERFORM
+2021098143630-I--------------- 2-D rectification complete: OECK04020 -----------
+2021098143630-I--------------- STATFLAG complete: OECK04020 --------------------
+X2DCORR  COMPLETE
+DISPCORR COMPLETE
+Order 1  End 14:36:30 UTC
+2021098143630-I--------------- Output written to disk: OECK04020 ---------------
+Imset 2  End 14:36:30 UTC
+         trace was rotated by = -0.00809612 degree.
+
+End      08-Apr-2021 14:36:30 UTC
+
+*** CALSTIS-7 complete ***
+2021098143630-I--------------- CALSTIS-7 completed: OECK04020 ------------------
+
+*** CALSTIS-4 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    08-Apr-2021 14:36:30 UTC
+2021098143630-I--------------- CALSTIS-4 started -------------------------------
+Input    oeck04020_w2d_tmp.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G230L
+DETECTOR NUV-MAMA
+2021098143630-I--------------- Begin processing: OECK04020 ---------------------
+         Wavecal parameters are: \
+         WL_TRIM1 = 0 \
+         WL_TRIM2 = 10 \
+         SP_TRIM1 = 10 \
+         SP_TRIM2 = 130 \
+         WL_RANGE = 103 \
+         SP_RANGE = 121
+
+Imset 1  Begin 14:36:30 UTC
+         Section to use for finding shift in dispersion direction: \
+             1:1201, 11:1191 \
+         Section to use for finding shift in spatial direction: \
+             11:1191, 131:1071 \
+         Image pixels are reference pixel size.
+
+WAVECORR PERFORM
+WCPTAB   oref$16j1600co_wcp.fits
+WCPTAB   PEDIGREE=INFLIGHT 09/11/1998 13/06/2017
+WCPTAB   DESCRIP =Force G140M and G230L SHIFTA2 into single-bar mode via SP_TRIM2.---
+WCPTAB   DESCRIP =TRIM values modified, WL_RANGE and SP_RANGE increased
+LAMPTAB  oref$l421050oo_lmp.fits
+LAMPTAB  PEDIGREE=GROUND
+LAMPTAB  DESCRIP =Ground+Inflight Cal PT lamp, 3.8 & 10 mA
+LAMPTAB  DESCRIP =Ground Cal for non-PRISM, PT lamp 10 mA
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 13/06/2017
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Microscope Meas./Hartig Post-launch Offsets
+         shift of bar 1 is 13.977, weight = 0.96482
+Warning  Skipping current occulting bar ... \
+Warning  Peak of cross correlation is 0.0266287 of the expected value, \
+Warning  which is outside the allowed range 0.5 to 1.5
+Warning  Bar 2 could not be found.
+         Shift in dispersion direction is 6.689 pixels.
+         Shift in spatial direction is 13.977 pixels.
+WAVECORR COMPLETE
+Imset 1  End 14:36:30 UTC
+2021098143630-I--------------- Ending current imset: OECK04020 -----------------
+
+Imset 2  Begin 14:36:30 UTC
+         Section to use for finding shift in dispersion direction: \
+             1:1201, 11:1191 \
+         Section to use for finding shift in spatial direction: \
+             11:1191, 131:1071 \
+         Image pixels are reference pixel size.
+
+WAVECORR PERFORM
+         shift of bar 1 is 14.254, weight = 0.96075
+Warning  Skipping current occulting bar ... \
+Warning  Peak of cross correlation is 0.0239644 of the expected value, \
+Warning  which is outside the allowed range 0.5 to 1.5
+Warning  Bar 2 could not be found.
+         Shift in dispersion direction is 6.965 pixels.
+         Shift in spatial direction is 14.254 pixels.
+WAVECORR COMPLETE
+Imset 2  End 14:36:30 UTC
+2021098143630-I--------------- Ending current imset: OECK04020 -----------------
+
+End      08-Apr-2021 14:36:30 UTC
+
+*** CALSTIS-4 complete ***
+2021098143630-I--------------- CALSTIS-4 completed: OECK04020 ------------------
+
+*** CALSTIS-12 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    08-Apr-2021 14:36:30 UTC
+2021098143630-I--------------- CALSTIS-12 started ------------------------------
+Wavecal  oeck04020_w2d_tmp.fits
+Science  oeck04020_flt.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G230L
+DETECTOR NUV-MAMA
+2021098143630-I--------------- Begin processing: OECK04020 ---------------------
+         Linear interpolation will be used to get the output shifts.
+Imset 1  Begin 14:36:30 UTC
+         SHIFTA1 set to 6.70819
+         SHIFTA2 set to 13.9965
+Imset 1  End 14:36:30 UTC
+2021098143630-I--------------- CALSTIS-12 completed: OECK04020 -----------------
+
+End      08-Apr-2021 14:36:30 UTC
+
+*** CALSTIS-12 complete ***
+
+*** CALSTIS-7 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    08-Apr-2021 14:36:30 UTC
+2021098143630-I--------------- CALSTIS-7 started -------------------------------
+Input    oeck04020_flt.fits
+Output   oeck04020_x2d.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G230L
+DETECTOR NUV-MAMA
+2021098143630-I--------------- Begin processing: OECK04020 ---------------------
+Imset 1  Begin 14:36:30 UTC
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+Order 1  Begin 14:36:30 UTC
+         Delta = -0.00733 arcsec.
+         trace was rotated by = -0.00809598 degree.
+
+X2DCORR  PERFORM
+DISPCORR PERFORM
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 13/06/2017
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Microscope Meas./Hartig Post-launch Offsets
+SDCTAB   oref$16j1600bo_sdc.fits
+SDCTAB   PEDIGREE=INFLIGHT 09/07/1997 13/06/2017
+SDCTAB   DESCRIP =Co-aligned fiducial bars via an update to the CDELT2 plate scales.-
+SDCTAB   DESCRIP =CDELT2 updated with inflight data, others Lindler/prelaunch
+DISPTAB  oref$m7p16111o_dsp.fits
+DISPTAB  PEDIGREE=INFLIGHT 23/01/1999 23/01/1999
+DISPTAB  DESCRIP =Dispersion coefficients reference table
+DISPTAB  DESCRIP =INFLIGHT Cal. Disp. Coeffs
+INANGTAB oref$l3m1437ro_iac.fits
+INANGTAB PEDIGREE=GROUND
+INANGTAB DESCRIP =Prelaunch Calibration/Lindler and Models
+INANGTAB DESCRIP =Prelaunch Calibration/Lindler
+SPTRCTAB oref$q8l14502o_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 02/09/1997
+SPTRCTAB DESCRIP =New G230L traces and updated Echelle A2CENTER values
+SPTRCTAB DESCRIP =Lindler...Holfeltz postlaunch calibration
+2021098143630-I--------------- 2-D rectification complete: OECK04020 -----------
+
+FLUXCORR PERFORM
+PHOTTAB  oref$3711808ko_pht.fits
+PHOTTAB  PEDIGREE=INFLIGHT 30/06/2003 23/08/2003
+PHOTTAB  DESCRIP =Echelle mode post-SM4 blaze function shift time coefficients updated
+PHOTTAB  DESCRIP =Bostroem Sensitivity of 01-Nov-2011
+APERTAB  oref$y2r1559to_apt.fits
+APERTAB  PEDIGREE=MODEL
+APERTAB  DESCRIP =Added/updated values for 31X0.05NDA,31X0.05NDB,31X0.05NDC apertures
+APERTAB  DESCRIP =Bohlin/Hartig TIM Models Nov. 1998
+PCTAB    oref$y2r16006o_pct.fits
+PCTAB    PEDIGREE=INFLIGHT 18/5/1997 19/12/1998
+PCTAB    DESCRIP =Added/updated values for 31X0.05NDA,31X0.05NDB,31X0.05NDC apertures
+PCTAB    DESCRIP = 1 STIS observations averaged
+TDSTAB   oref$3ah15289o_tds.fits
+TDSTAB   PEDIGREE=INFLIGHT 01/04/1997 04/07/2019
+TDSTAB   DESCRIP =Updated time sensitivities for MIRNUV and L, M, and H modes.
+FLUXCORR COMPLETE
+2021098143631-I--------------- FLUXCORR complete: OECK04020 --------------------
+2021098143631-I--------------- STATFLAG complete: OECK04020 --------------------
+X2DCORR  COMPLETE
+DISPCORR COMPLETE
+Order 1  End 14:36:31 UTC
+2021098143631-I--------------- Output written to disk: OECK04020 ---------------
+Imset 1  End 14:36:31 UTC
+         trace was rotated by = -0.00809598 degree.
+
+End      08-Apr-2021 14:36:31 UTC
+
+*** CALSTIS-7 complete ***
+2021098143631-I--------------- CALSTIS-7 completed: OECK04020 ------------------
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    08-Apr-2021 14:36:31 UTC
+2021098143631-I--------------- CALSTIS-6 started -------------------------------
+
+Warning  Grating-aperture throughput correction table (GACTAB) was not found,
+         and no gac corrections will be applied
+Input    oeck04020_flt.fits
+Output   oeck04020_x1d.fits
+Rootname oeck04020
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G230L
+DETECTOR NUV-MAMA
+
+XTRACTAB oref$l3m1437to_1dx.fits
+XTRACTAB PEDIGREE=INFLIGHT 29/05/97
+XTRACTAB DESCRIP =Analysis from prop. 7064 and ground data
+XTRACTAB DESCRIP =Analysis from prop. 7064
+SPTRCTAB oref$q8l14502o_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 27/02/1997 06/02/1999
+SPTRCTAB DESCRIP =New G230L traces and updated Echelle A2CENTER values
+
+Imset 1  Begin 14:36:31 UTC
+         Input read into memory.
+Order 1  Begin 14:36:31 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 393.056 pixels
+BACKCORR PERFORM
+******** Calling Slfit ***********BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2021098143631-I--------------- X1DCORR complete: OECK04020 ---------------------
+         Spectrum extracted at y position = 527.504
+         Extraction box height = 11
+         Background box 1 height = 5 offset -300 from A2CENTER
+         Background box 2 height = 5 offset 300 from A2CENTER
+
+DISPCORR PERFORM
+DISPTAB  oref$m7p16111o_dsp.fits
+DISPTAB  PEDIGREE=INFLIGHT 23/01/1999 23/01/1999
+DISPTAB  DESCRIP =Dispersion coefficients reference table
+DISPTAB  DESCRIP =INFLIGHT Cal. Disp. Coeffs
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 13/06/2017
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Microscope Meas./Hartig Post-launch Offsets
+INANGTAB oref$l3m1437ro_iac.fits
+INANGTAB DESCRIP =Prelaunch Calibration/Lindler and Models
+         Delta = -0.00733 arcsec.
+DISPCORR COMPLETE
+2021098143631-I--------------- DISPCORR complete: OECK04020 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2021098143631-I--------------- HELCORR complete: OECK04020 ---------------------
+
+PHOTTAB  oref$3711808ko_pht.fits
+PHOTTAB  PEDIGREE=INFLIGHT 27/02/1997 21/05/2017
+PHOTTAB  DESCRIP =Echelle mode post-SM4 blaze function shift time coefficients updated
+APERTAB  oref$y2r1559to_apt.fits
+APERTAB  PEDIGREE=MODEL
+APERTAB  DESCRIP =Added/updated values for 31X0.05NDA,31X0.05NDB,31X0.05NDC apertures
+APERTAB  DESCRIP =Bohlin/Hartig TIM Models Nov. 1998
+PCTAB    oref$y2r16006o_pct.fits
+PCTAB    PEDIGREE=INFLIGHT 18/05/1997 19/12/1998
+PCTAB    DESCRIP =Added/updated values for 31X0.05NDA,31X0.05NDB,31X0.05NDC apertures
+TDSTAB   oref$3ah15289o_tds.fits
+TDSTAB   PEDIGREE=INFLIGHT 01/04/1997 04/07/2019
+TDSTAB   DESCRIP =Updated time sensitivities for MIRNUV and L, M, and H modes.
+FLUXCORR PERFORM
+FLUXCORR COMPLETE
+2021098143631-I--------------- FLUXCORR complete: OECK04020 --------------------
+
+SGEOCORR OMIT
+
+         Row 1 written to disk.
+Order 1  End 14:36:31 UTC
+
+         trace was rotated by = -0.00809598 degree.
+Imset 1  End 14:36:31 UTC
+
+Warning  Keyword `XTRACALG' is being added to header.
+End      08-Apr-2021 14:36:31 UTC
+
+*** CALSTIS-6 complete ***
+2021098143631-I--------------- CALSTIS-6 completed: OECK04020 ------------------
+
+End      08-Apr-2021 14:36:31 UTC
+
+*** CALSTIS-0 complete ***
+2021098143631-I--------------- CALSTIS completed: OECK04020 --------------------
+CALEND ------------ Thu Apr  8 14:36:32 UTC 2021 ------------------
+2021098143640 INFO src=ac_xxx_OWL.run_task fsn=oeck04020 msg="-------------- After Calibration Started for   oeck04020 --------------"
+2021098143640 INFO src=ac_xxx_OWL-asn_product_status.banner_start fsn=oeck04020 msg="Start ------  Association Product Status Updater for oeck04020  ------"
+2021098143640 INFO src=ac_xxx_OWL-asn_product_status.get_asn_table fsn=oeck04020 msg="--- ASN: ...oeck04020_asn.fits"
+2021098143640 INFO src=ac_xxx_OWL-asn_product_status.build_query_list fsn=oeck04020 msg="The product_status for OECK04020 is C"
+2021098143641 INFO src=ac_xxx_OWL-asn_product_status.asn_status_update fsn=oeck04020 msg="Updated 1 asn_members.product_status record."
+2021098143641 INFO src=ac_xxx_OWL-asn_product_status.banner_end fsn=oeck04020 msg="  End ------  Association Product Status Updater for oeck04020  ------"
+2021098143641 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2021098143641 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oeck04020 msg="Opening connection to ..., ..."
+2021098143641 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=oeck04020 msg="4 rows found for association oeck04020"
+2021098143641 INFO src=ac_xxx_OWL-hst_missionquery.get_proposal_id fsn=oeck04rsq msg="returning 16221 for oeck04rsq"
+2021098143641 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oeck04020 msg="HstScienceDataset(archive_product='oeck04020', archive_product_type='PRODUCT', dataset_type='asn', hst_db=<hst_missionquery.HST_Mission_db object at 0x2b452b819100>, instrument='sti', ipppssoot='oeck04020', log=<Logfile.Logfile object at 0x2b452b82d400>, product_exposures={'oeck04rsq': 'AUTO-WAVECAL', 'oeck04rtq': 'SCIENCE', 'oeck04s0q': 'AUTO-WAVECAL'}, proposal_id='16221', subproducts={})"
+2021098143641 INFO src=ac_xxx_OWL.update_quality_...s fsn=oeck04020 msg="No pdq_summary_update records found for oeck04020."
+2021098143641 INFO src=ac_xxx_OWL.run_task fsn=oeck04020 msg="-------------- After Calibration Completed for oeck04020 --------------"

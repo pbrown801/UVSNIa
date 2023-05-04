@@ -1,0 +1,62 @@
+fdump oedc12010_sx1.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G430L_20220422.32.dat
+# 59691.31356481  59691.32222222
+fdump oedc12020_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220422.33.dat
+# 59691.326  59691.33476852
+fdump oedc12030_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220422.39.dat
+# 59691.371 59691.4003
+fdump oedc12040_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220422.46.dat
+# 59691.4448  59691.4665
+fdump oedc12050_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no outfile=SN2022hrs_G230L_20220422.52.dat
+#  59691.5036  59691.53266
+
+
+
+fdump oedc13010_sx1.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G430L_20220426_1.dat
+# 59695.01796    59695.02662
+fdump oedc13020_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220426_1.dat
+#  59695.03046  
+fdump oedc13030_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220426_2.dat
+#  
+fdump oedc13040_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220426_3.dat
+#   59695.17092593
+
+#59695.19
+
+fdump oedc14010_sx1.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G430L_20220427_1.dat
+#  59696.27449
+fdump oedc14020_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220427_1.dat
+#    
+fdump oedc14030_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220427_2.dat
+#  
+fdump oedc14040_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220427_3.dat
+#                  59696.42781
+#59696.70
+
+#59695.8
+
+
+
+
+
+fdump oedc15010_sx1.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G430L_20220507_1.dat
+#  
+fdump oedc15020_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220507_1.dat
+#    
+fdump oedc15030_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220507_2.dat
+#  
+fdump oedc15040_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220507_3.dat
+
+# 59706.79377  -   59706.947    , midpoint=59706.9
+
+
+
+fdump oedc16010_sx1.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G430L_20220515_1.dat
+#  
+fdump oedc16020_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220515_1.dat
+#    
+fdump oedc16030_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220515_2.dat
+#  
+fdump oedc16040_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220515_3.dat
+
+#  59714.73184 - 59714.884988
+# 59714.88

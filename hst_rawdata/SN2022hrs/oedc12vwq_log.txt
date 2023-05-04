@@ -1,0 +1,61 @@
+2022112150043-I-INFO -------------- Data Partitioning Started: oedc12vwq ------------
+2022112150043-I-INFO Partitioning from POD file: lz_492f_248_0000208767
+2022112150043-I-INFO OSF_PROCESSING: for oedc12vwq
+2022112150043-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2022112150043-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 25, expected pkts = 12 (single readout), total pkts = 26
+2022112150043-I-INFO DPI_task::DP_close_oldobs:  23 Science packets, 3 Engineering (ULX) packets, 0 Bad pkts
+2022112150043-I-INFO DP_close_files:  ...oedc12vwq.pkx was closed
+2022112150043-I-INFO DP_close_files:  ...oedc12vwq.bdx was closed
+2022112150043-I-INFO DP_close_files:  ...oedc12vwq.ulx was closed
+2022112150043-I-INFO DP_close_files:  ...oedc12vwq.pki was closed
+2022112150043-I-INFO DP_close_files:  ...oedc12vwq.uli was closed
+2022112150043-I-INFO DPI_task::DP_close_oldobs:  Copied ...oedc12w1q.shx to ...oedc12vwq.shx
+2022112150043-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oedc12vwq ------------
+2022112151345-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oedc12vwq ------------
+2022112151346-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oedc12vwq ------------
+2022112151346-I-INFO dv_DataValidation:  -------------- Data Validation Started: oedc12vwq ------------
+2022112151346-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2022.112:07:20:05
+2022112151346-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2022.112:07:20:05 using yurintab date: 2018.249:22:15:00
+2022112151346-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 4
+2022112151346-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2022112151346-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oedc12vwq ------------
+2022112151346-I-INFO ----------- World Coordinate System Started: oedc12vwq ---------
+2022112151346-I-INFO ----------- World Coordinate System Ended:   oedc12vwq ---------
+2022112151347-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: oedc12vwq ------------
+2022112151347-I-INFO GCO_STIS: Starting...
+2022112151347-I-INFO GCO_poll_status: ===================================================================
+2022112151347-I-INFO GCO_poll_status: -------------- Generic Conversion Processing: oedc12vwq ------------- 
+2022112151347-I-INFO -------------- Generic Conversion Started: oedc12vwq -------------
+2022112151347-I-INFO GC_load_...s: ...oedc12vwq.dvx maxgroup=3
+2022112151347-I-INFO GC_load_...s: ...oedc12vwq.dgx maxgroup=0
+2022112151347-I-INFO GC_load_...s: ...oedc12vwq.dcx maxgroup=3
+2022112151347-W-WARN DBMS_asn_count_collected_exp: No records found for this query: SELECT COUNT(*) collect_count FROM qeassociation a WHERE a.association_id = @association_id AND a.alignment_id != ' ' AND a.collect='Y' 
+2022112151347-W-WARN DBMS_asn_count_collected_exp: Where @association_id is 
+2022112151347-I-INFO -------------- Generic Conversion Completed: oedc12vwq -------------
+2022112151347-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: oedc12vwq ------------
+2022112151410-I-INFO-exposure_times-Start ------ Exposure Times Updater for oedc12vwq ------
+2022112151410-I-INFO-exposure_times-Using oedc12vwq_raw.fits
+2022112151410-I-INFO-exposure_times-For oedc12vwq, start 2022.112:07:20:19, end 2022.112:07:23:54
+2022112151410-I-INFO-exposure_times-Updated 1 qolink_sms exposure times record.
+2022112151410-I-INFO-exposure_times-  End ------ Exposure Times Updater for oedc12vwq ------
+CALBEG ------------ Fri Apr 22 15:14:18 UTC 2022------------------
+
+*** CALSTIS-0 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    22-Apr-2022 15:14:19 UTC
+2022112151419-I--------------- CALSTIS started ---------------------------------
+
+Input    oedc12vwq_raw.fits
+Warning  No calibration switch was set to PERFORM.
+         No output from current processing step.
+CALEND ------------ Fri Apr 22 15:14:19 UTC 2022 ------------------
+2022112151427 INFO src=ac_xxx_OWL.run_task fsn=oedc12vwq msg="-------------- After Calibration Started for   oedc12vwq --------------"
+2022112151427 INFO src=ac_xxx_OWL-asn_product_status.banner_start fsn=oedc12vwq msg="Start ------  Association Product Status Updater for oedc12vwq  ------"
+2022112151427 INFO src=ac_xxx_OWL-asn_product_status.asn_status_update fsn=oedc12vwq msg="asn_root oedc12vwq does NOT end in 0.  No update necessary.  Goodbye."
+2022112151427 INFO src=ac_xxx_OWL-asn_product_status.banner_end_no_op fsn=oedc12vwq msg="  End ------  Association Product Status Updater Nothing to do for oedc12vwq +  ------"
+2022112151427 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2022112151427 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oedc12vwq msg="Opening connection to ..., ..."
+2022112151427 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=oedc12vwq msg="0 rows found for association oedc12vwq"
+2022112151427 INFO src=ac_xxx_OWL-hst_missionquery.get_proposal_id fsn=oedc12vwq msg="returning 16190 for oedc12vwq"
+2022112151427 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oedc12vwq msg="HstScienceDataset(archive_product='oedc12vwq', archive_product_type='SINGLETON', dataset_type='single', hst_db=<hst_missionquery.HST_Mission_db object at 0x2b9a2cd35970>, instrument='sti', ipppssoot='oedc12vwq', log=<Logfile.Logfile object at 0x2b9a2cd358e0>, product_exposures={'oedc12vwq': 'SINGLETON'}, proposal_id='16190', subproducts={})"
+2022112151427 INFO src=ac_xxx_OWL.update_quality_...s fsn=oedc12vwq msg="No pdq_summary_update records found for oedc12vwq."
+2022112151427 INFO src=ac_xxx_OWL.run_task fsn=oedc12vwq msg="-------------- After Calibration Completed for oedc12vwq --------------"

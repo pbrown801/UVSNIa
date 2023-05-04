@@ -1,0 +1,31 @@
+# SN2014J
+
+fdump ocb150040_x1d.fits\[1\] columns="wavelength,flux, error, dq" outfile=SN2014J_uv_20140126_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ocb150050_sx1.fits columns="wavelength,flux, error, dq" outfile=SN2014J_opt_20140126_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocb157020_x1d.fits\[1\] columns="wavelength,flux, error, dq" outfile=SN2014J_uv_20140213_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ocb157030_sx1.fits columns="wavelength,flux, error, dq" outfile=SN2014J_opt_20140213_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocb156020_x1d.fits\[1\] columns="wavelength,flux, error, dq" outfile=SN2014J_uv_20140210_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ocb156030_sx1.fits columns="wavelength,flux, error, dq" outfile=SN2014J_opt_20140210_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocb155020_x1d.fits\[1\] columns="wavelength,flux, error, dq" outfile=SN2014J_uv_20140208_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ocb155030_sx1.fits columns="wavelength,flux, error, dq" outfile=SN2014J_opt_20140208_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocb154020_x1d.fits\[1\] columns="wavelength,flux, error, dq" outfile=SN2014J_uv_20140204_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ocb154030_sx1.fits columns="wavelength,flux, error, dq" outfile=SN2014J_opt_20140204_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocb153020_x1d.fits\[1\] columns="wavelength,flux, error, dq" outfile=SN2014J_uv_20140201_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ocb153030_sx1.fits columns="wavelength,flux, error, dq" outfile=SN2014J_opt_20140201_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocb152020_x1d.fits\[1\] columns="wavelength,flux, error, dq" outfile=SN2014J_uv_20140130_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ocb152030_sx1.fits columns="wavelength,flux, error, dq" outfile=SN2014J_opt_20140130_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocb151020_x1d.fits\[1\] columns="wavelength,flux, error, dq" outfile=SN2014J_uv_20140128_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ocb151030_sx1.fits columns="wavelength,flux, error, dq" outfile=SN2014J_opt_20140128_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocb158020_x1d.fits\[1\] columns="wavelength,flux, error, dq" outfile=SN2014J_uv_20140216_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ocb158030_sx1.fits columns="wavelength,flux, error, dq" outfile=SN2014J_opt_20140216_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ocb159040_x1d.fits\[1\] columns="wavelength,flux, error, dq" outfile=SN2014J_uv_20140226_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ocb159050_sx1.fits columns="wavelength,flux, error, dq" outfile=SN2014J_opt_20140226_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no

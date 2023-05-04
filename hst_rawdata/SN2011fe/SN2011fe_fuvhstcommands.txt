@@ -1,0 +1,6 @@
+fdump obnd50080_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2011fe_fuv_20110913_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump obnd50090_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2011fe_fuv_20110913_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump obnd500a0_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2011fe_fuv_20110913_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+

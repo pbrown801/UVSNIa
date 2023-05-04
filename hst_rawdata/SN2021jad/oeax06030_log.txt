@@ -1,0 +1,102 @@
+2021270021647-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: oeax06030 ------------
+2021270021647-I-INFO GCO_STIS: Starting...
+2021270021647-I-INFO GCO_poll_status: ===================================================================
+2021270021647-I-INFO GCO_poll_status: -------------- Generic Conversion Processing: oeax06030 ------------- 
+2021270021647-I-INFO -------------- Generic Conversion Started: oeax06030:oeax06olq -------------
+2021118053734-I-INFO -------------- Data Partitioning Started: oeax06olq ------------
+2021118053734-I-INFO Partitioning from POD file: lz_491b_224_0000164721
+2021118053734-I-INFO OSF_PROCESSING: for oeax06olq
+2021118053734-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021118053734-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1149, expected pkts = 1150 (single readout), total pkts = 1150
+2021118053734-I-INFO DPI_task::DP_close_oldobs:  1149 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2021118053734-I-INFO DP_close_files:  ...oeax06olq.pkx was closed
+2021118053734-I-INFO DP_close_files:  ...oeax06olq.bdx was closed
+2021118053734-I-INFO DP_close_files:  ...oeax06olq.ulx was closed
+2021118053734-I-INFO DP_close_files:  ...oeax06olq.pki was closed
+2021118053734-I-INFO DP_close_files:  ...oeax06olq.uli was closed
+2021118053734-I-INFO DPI_task::DP_close_oldobs:  Copied ...oeax06oqq.shx to ...oeax06olq.shx
+2021118053734-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oeax06olq ------------
+2021270021645-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oeax06olq ------------
+2021270021645-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oeax06olq ------------
+2021270021646-I-INFO dv_DataValidation:  -------------- Data Validation Started: oeax06olq ------------
+2021270021646-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.118:03:14:33
+2021270021646-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.118:03:14:33 using yurintab date: 2018.249:22:15:00
+2021270021646-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 4
+2021270021646-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2021270021646-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oeax06olq ------------
+2021270021646-I-INFO ----------- World Coordinate System Started: oeax06olq ---------
+2021270021646-I-INFO ----------- World Coordinate System Ended:   oeax06olq ---------
+2021270021647-I-INFO GC_load_...s: ...oeax06olq.dvx maxgroup=1
+2021270021647-I-INFO GC_load_...s: ...oeax06olq.dgx maxgroup=0
+2021270021647-I-INFO GC_load_...s: ...oeax06olq.dcx maxgroup=1
+2021270021647-I-INFO GCO_init_obs: oeax06olq is a WAVECAL
+2021270021647-I-INFO -------------- Generic Conversion Completed: oeax06olq -------------
+2021270021647-I-INFO -------------- Generic Conversion Started: oeax06030:oeax06omq -------------
+2021118053734-I-INFO -------------- Data Partitioning Started: oeax06omq ------------
+2021118053734-I-INFO Partitioning from POD file: lz_491b_224_0000164721
+2021118053734-I-INFO OSF_PROCESSING: for oeax06omq
+2021118053734-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021118053735-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1149, expected pkts = 1150 (single readout), total pkts = 1150
+2021118053735-I-INFO DPI_task::DP_close_oldobs:  1149 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2021118053735-I-INFO DP_close_files:  ...oeax06omq.pkx was closed
+2021118053735-I-INFO DP_close_files:  ...oeax06omq.bdx was closed
+2021118053735-I-INFO DP_close_files:  ...oeax06omq.ulx was closed
+2021118053735-I-INFO DP_close_files:  ...oeax06omq.pki was closed
+2021118053735-I-INFO DP_close_files:  ...oeax06omq.uli was closed
+2021118053735-I-INFO DPI_task::DP_close_oldobs:  Copied ...oeax06oqq.shx to ...oeax06omq.shx
+2021118053735-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oeax06omq ------------
+2021270021645-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oeax06omq ------------
+2021270021645-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oeax06omq ------------
+2021270021646-I-INFO dv_DataValidation:  -------------- Data Validation Started: oeax06omq ------------
+2021270021646-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.118:03:15:44
+2021270021646-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.118:03:15:44 using yurintab date: 2018.249:22:15:00
+2021270021646-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 1
+2021270021646-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2021270021646-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oeax06omq ------------
+2021270021646-I-INFO ----------- World Coordinate System Started: oeax06omq ---------
+2021270021646-I-INFO ----------- World Coordinate System Ended:   oeax06omq ---------
+2021270021647-I-INFO GC_load_...s: ...oeax06omq.dvx maxgroup=1
+2021270021647-I-INFO GC_load_...s: ...oeax06omq.dgx maxgroup=0
+2021270021647-I-INFO GC_load_...s: ...oeax06omq.dcx maxgroup=1
+2021270021647-I-INFO -------------- Generic Conversion Completed: oeax06omq -------------
+2021270021647-I-INFO -------------- Generic Conversion Started: oeax06030:oeax06onq -------------
+2021118053735-I-INFO -------------- Data Partitioning Started: oeax06onq ------------
+2021118053735-I-INFO Partitioning from POD file: lz_491b_224_0000164721
+2021118053735-I-INFO OSF_PROCESSING: for oeax06onq
+2021118053735-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021118053735-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1149, expected pkts = 1150 (single readout), total pkts = 1150
+2021118053735-I-INFO DPI_task::DP_close_oldobs:  1149 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2021118053735-I-INFO DP_close_files:  ...oeax06onq.pkx was closed
+2021118053735-I-INFO DP_close_files:  ...oeax06onq.bdx was closed
+2021118053735-I-INFO DP_close_files:  ...oeax06onq.ulx was closed
+2021118053735-I-INFO DP_close_files:  ...oeax06onq.pki was closed
+2021118053735-I-INFO DP_close_files:  ...oeax06onq.uli was closed
+2021118053735-I-INFO DPI_task::DP_close_oldobs:  Copied ...oeax06oqq.shx to ...oeax06onq.shx
+2021118053735-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oeax06onq ------------
+2021270021645-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oeax06onq ------------
+2021270021645-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oeax06onq ------------
+2021270021646-I-INFO dv_DataValidation:  -------------- Data Validation Started: oeax06onq ------------
+2021270021646-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.118:03:18:08
+2021270021646-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.118:03:18:08 using yurintab date: 2018.249:22:15:00
+2021270021646-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 1
+2021270021646-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2021270021646-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oeax06onq ------------
+2021270021646-I-INFO ----------- World Coordinate System Started: oeax06onq ---------
+2021270021646-I-INFO ----------- World Coordinate System Ended:   oeax06onq ---------
+2021270021647-I-INFO GC_load_...s: ...oeax06onq.dvx maxgroup=1
+2021270021647-I-INFO GC_load_...s: ...oeax06onq.dgx maxgroup=0
+2021270021647-I-INFO GC_load_...s: ...oeax06onq.dcx maxgroup=1
+2021270021647-I-INFO -------------- Generic Conversion Completed: oeax06onq -------------
+2021270021647-I-INFO GCO_STIS: -------------- Generic Conversion Completed: oeax06030 ------------- 
+2021270021647-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: oeax06030 ------------
+2021270021649-I-INFO-exposure_times-Start ------ Exposure Times Updater for oeax06030 ------
+2021270021649-I-INFO-exposure_times-UPDATE_EXPOSURE_TIMES is False. No update necessary.
+2021270021649-I-INFO-exposure_times-  End ------ Exposure Times Updater Nothing to do for oeax06030 ------
+2021272155047 INFO src=ac_xxx_OWL.run_task fsn=oeax06030 msg="-------------- After Calibration Started for   oeax06030 --------------"
+2021272155047 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2021272155047 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oeax06030 msg="Opening connection to ..., ..."
+2021272155047 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=oeax06030 msg="4 rows found for association oeax06030"
+2021272155048 INFO src=ac_xxx_OWL-hst_missionquery.get_proposal_id fsn=oeax06olq msg="returning 16238 for oeax06olq"
+2021272155048 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oeax06030 msg="HstScienceDataset(archive_product='oeax06030', archive_product_type='PRODUCT', dataset_type='asn', hst_db=<hst_missionquery.HST_Mission_db object at 0x2ae9ef7f3c40>, instrument='sti', ipppssoot='oeax06030', log=<Logfile.Logfile object at 0x2ae9ef7f3340>, product_exposures={'oeax06olq': 'AUTO-WAVECAL', 'oeax06omq': 'CRSPLIT', 'oeax06onq': 'CRSPLIT'}, proposal_id='16238', subproducts={})"
+2021272155048 INFO src=ac_xxx_OWL.update_quality_...s fsn=oeax06030 msg="No pdq_summary_update records found for oeax06030."
+2021272155048 INFO src=ac_xxx_OWL.run_task fsn=oeax06030 msg="-------------- After Calibration Completed for oeax06030 --------------"

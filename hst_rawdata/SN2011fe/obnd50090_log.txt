@@ -1,0 +1,104 @@
+2022106122411-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: obnd50090 ------------
+2022106122411-I-INFO GCO_STIS: Starting...
+2022106122411-I-INFO GCO_poll_status: ===================================================================
+2022106122411-I-INFO GCO_poll_status: -------------- Generic Conversion Processing: obnd50090 ------------- 
+2022106122411-I-INFO -------------- Generic Conversion Started: obnd50090:obnd50moq -------------
+2015095194301-I-INFO DP_open_newobs: -------------- Data Partitioning Started: obnd50moq ------------
+2015095194301-I-INFO DP_open_newobs: Partitioning from POD file: lz_4919_286_0001773121_obnd50moq
+2015095194301-I-INFO Search osf is ????????-p???????????????????????.obnd50moq_______________________________-sti-???-????
+2015095194301-I-INFO Search osf is ????????-????????????????????????.obnd50moq_______________________________-sti-???-????
+2015095194301-I-INFO Creating OSF for obnd50moq and data_id sti with status OSF_PROCESSING
+2015095194301-I-INFO DP_close_oldobs: SDF lines = 1087, expected pkts = 1088 (single readout), total pkts = 1088
+2015095194301-I-INFO DP_close_oldobs: 1087 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2015095194301-I-INFO DP_close_files: ...obnd50moq.pkx was closed
+2015095194301-I-INFO DP_close_files: ...obnd50moq.bdx was closed
+2015095194301-I-INFO DP_close_files: ...obnd50moq.ulx was closed
+2015095194301-I-INFO DP_close_files: ...obnd50moq.pki was closed
+2015095194301-I-INFO DP_close_files: ...obnd50moq.uli was closed
+2015095194301-I-INFO DP_close_oldobs: Copied ...obnd50mrq.shx to ...obnd50moq.shx
+2015095194301-I-INFO DP_close_oldobs: -------------- Data Partitioning Ended:   obnd50moq ------------
+2022106122357-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: obnd50moq ------------
+2022106122359-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: obnd50moq ------------
+2022106122407-I-INFO dv_DataValidation:  -------------- Data Validation Started: obnd50moq ------------
+2022106122408-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2011.256:18:10:04
+2022106122408-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2011.256:18:10:04 using yurintab date: 2011.172:20:43:00
+2022106122408-I-INFO dv_STIS::compare:  Mismatched weight (0) was lower than threshold (55)
+2022106122408-I-INFO dv_DataValidation:  -------------- Data Validation Completed: obnd50moq ------------
+2022106122408-I-INFO ----------- World Coordinate System Started: obnd50moq ---------
+2022106122408-I-INFO ----------- World Coordinate System Ended:   obnd50moq ---------
+2022106122411-I-INFO GC_load_...s: ...obnd50moq.dvx maxgroup=1
+2022106122411-I-INFO GC_load_...s: ...obnd50moq.dgx maxgroup=0
+2022106122411-I-INFO GC_load_...s: ...obnd50moq.dcx maxgroup=1
+2022106122412-I-INFO GCO_init_obs: obnd50moq is a WAVECAL
+2022106122413-I-INFO -------------- Generic Conversion Completed: obnd50moq -------------
+2022106122413-I-INFO -------------- Generic Conversion Started: obnd50090:obnd50mpq -------------
+2015095194302-I-INFO DP_open_newobs: -------------- Data Partitioning Started: obnd50mpq ------------
+2015095194302-I-INFO DP_open_newobs: Partitioning from POD file: lz_491a_288_0001773123_obnd50mpq
+2015095194302-I-INFO Search osf is ????????-p???????????????????????.obnd50mpq_______________________________-sti-???-????
+2015095194302-I-INFO Search osf is ????????-????????????????????????.obnd50mpq_______________________________-sti-???-????
+2015095194302-I-INFO Creating OSF for obnd50mpq and data_id sti with status OSF_PROCESSING
+2015095194302-I-INFO DP_close_oldobs: SDF lines = 4347, expected pkts = 4348 (single readout), total pkts = 4348
+2015095194302-I-INFO DP_close_oldobs: 4347 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2015095194302-I-INFO DP_close_files: ...obnd50mpq.pkx was closed
+2015095194302-I-INFO DP_close_files: ...obnd50mpq.bdx was closed
+2015095194302-I-INFO DP_close_files: ...obnd50mpq.ulx was closed
+2015095194302-I-INFO DP_close_files: ...obnd50mpq.pki was closed
+2015095194302-I-INFO DP_close_files: ...obnd50mpq.uli was closed
+2015095194302-I-INFO DP_close_oldobs: Copied ...obnd50myq.shx to ...obnd50mpq.shx
+2015095194302-I-INFO DP_close_oldobs: -------------- Data Partitioning Ended:   obnd50mpq ------------
+2022106122359-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: obnd50mpq ------------
+2022106122401-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: obnd50mpq ------------
+2022106122408-I-INFO dv_DataValidation:  -------------- Data Validation Started: obnd50mpq ------------
+2022106122408-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2011.256:18:54:41
+2022106122408-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2011.256:18:54:41 using yurintab date: 2011.172:20:43:00
+2022106122408-I-INFO dv_STIS::compare:  Mismatched weight (0) was lower than threshold (55)
+2022106122408-I-INFO dv_DataValidation:  -------------- Data Validation Completed: obnd50mpq ------------
+2022106122408-I-INFO ----------- World Coordinate System Started: obnd50mpq ---------
+2022106122409-I-INFO ----------- World Coordinate System Ended:   obnd50mpq ---------
+2022106122413-I-INFO GC_load_...s: ...obnd50mpq.dvx maxgroup=1
+2022106122413-I-INFO GC_load_...s: ...obnd50mpq.dgx maxgroup=0
+2022106122413-I-INFO GC_load_...s: ...obnd50mpq.dcx maxgroup=1
+2022106122414-I-INFO -------------- Generic Conversion Completed: obnd50mpq -------------
+2022106122414-I-INFO -------------- Generic Conversion Started: obnd50090:obnd50mzq -------------
+2015095194302-I-INFO DP_open_newobs: -------------- Data Partitioning Started: obnd50mzq ------------
+2015095194302-I-INFO DP_open_newobs: Partitioning from POD file: lz_491b_288_0001773125_obnd50mzq
+2015095194302-I-INFO Search osf is ????????-p???????????????????????.obnd50mzq_______________________________-sti-???-????
+2015095194302-I-INFO Search osf is ????????-????????????????????????.obnd50mzq_______________________________-sti-???-????
+2015095194302-I-INFO Creating OSF for obnd50mzq and data_id sti with status OSF_PROCESSING
+2015095194302-I-INFO DP_close_oldobs: SDF lines = 1087, expected pkts = 1088 (single readout), total pkts = 1088
+2015095194302-I-INFO DP_close_oldobs: 1087 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2015095194302-I-INFO DP_close_files: ...obnd50mzq.pkx was closed
+2015095194302-I-INFO DP_close_files: ...obnd50mzq.bdx was closed
+2015095194302-I-INFO DP_close_files: ...obnd50mzq.ulx was closed
+2015095194302-I-INFO DP_close_files: ...obnd50mzq.pki was closed
+2015095194302-I-INFO DP_close_files: ...obnd50mzq.uli was closed
+2015095194302-I-INFO DP_close_oldobs: Copied ...obnd50n2q.shx to ...obnd50mzq.shx
+2015095194302-I-INFO DP_close_oldobs: -------------- Data Partitioning Ended:   obnd50mzq ------------
+2022106122401-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: obnd50mzq ------------
+2022106122402-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: obnd50mzq ------------
+2022106122408-I-INFO dv_DataValidation:  -------------- Data Validation Started: obnd50mzq ------------
+2022106122408-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2011.256:19:45:55
+2022106122408-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2011.256:19:45:55 using yurintab date: 2011.172:20:43:00
+2022106122408-I-INFO dv_STIS::compare:  Mismatched weight (0) was lower than threshold (55)
+2022106122408-I-INFO dv_DataValidation:  -------------- Data Validation Completed: obnd50mzq ------------
+2022106122409-I-INFO ----------- World Coordinate System Started: obnd50mzq ---------
+2022106122409-I-INFO ----------- World Coordinate System Ended:   obnd50mzq ---------
+2022106122414-I-INFO GC_load_...s: ...obnd50mzq.dvx maxgroup=1
+2022106122414-I-INFO GC_load_...s: ...obnd50mzq.dgx maxgroup=0
+2022106122414-I-INFO GC_load_...s: ...obnd50mzq.dcx maxgroup=1
+2022106122414-I-INFO GCO_init_obs: obnd50mzq is a WAVECAL
+2022106122415-I-INFO -------------- Generic Conversion Completed: obnd50mzq -------------
+2022106122415-W-WARNING Unable to find FITS file ...obnd50090_tag.fits
+2022106122415-I-INFO GCO_STIS: -------------- Generic Conversion Completed: obnd50090 ------------- 
+2022106122415-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: obnd50090 ------------
+2022106122419-I-INFO-exposure_times-Start ------ Exposure Times Updater for obnd50090 ------
+2022106122419-I-INFO-exposure_times-UPDATE_EXPOSURE_TIMES is False. No update necessary.
+2022106122419-I-INFO-exposure_times-  End ------ Exposure Times Updater Nothing to do for obnd50090 ------
+2022108013410 INFO src=ac_xxx_OWL.run_task fsn=obnd50090 msg="-------------- After Calibration Started for   obnd50090 --------------"
+2022108013410 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2022108013410 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=obnd50090 msg="Opening connection to ..., ..."
+2022108013410 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=obnd50090 msg="4 rows found for association obnd50090"
+2022108013410 INFO src=ac_xxx_OWL-hst_missionquery.get_proposal_id fsn=obnd50moq msg="returning 12298 for obnd50moq"
+2022108013410 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=obnd50090 msg="HstScienceDataset(archive_product='obnd50090', archive_product_type='PRODUCT', dataset_type='asn', hst_db=<hst_missionquery.HST_Mission_db object at 0x2b7bcc222c70>, instrument='sti', ipppssoot='obnd50090', log=<Logfile.Logfile object at 0x2b7bcc2224c0>, product_exposures={'obnd50moq': 'AUTO-WAVECAL', 'obnd50mpq': 'SCIENCE', 'obnd50mzq': 'AUTO-WAVECAL'}, proposal_id='12298', subproducts={})"
+2022108013410 INFO src=ac_xxx_OWL.update_quality_...s fsn=obnd50090 msg="No pdq_summary_update records found for obnd50090."
+2022108013410 INFO src=ac_xxx_OWL.run_task fsn=obnd50090 msg="-------------- After Calibration Completed for obnd50090 --------------"

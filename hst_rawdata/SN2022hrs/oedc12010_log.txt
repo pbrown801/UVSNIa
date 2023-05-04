@@ -1,0 +1,812 @@
+2022112151348-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: oedc12010 ------------
+2022112151348-I-INFO GCO_STIS: Starting...
+2022112151348-I-INFO GCO_poll_status: ===================================================================
+2022112151348-I-INFO GCO_poll_status: -------------- Generic Conversion Processing: oedc12010 ------------- 
+2022112151348-I-INFO -------------- Generic Conversion Started: oedc12010:oedc12vyq -------------
+2022112150043-I-INFO -------------- Data Partitioning Started: oedc12vyq ------------
+2022112150043-I-INFO Partitioning from POD file: lz_492f_248_0000208767
+2022112150043-I-INFO OSF_PROCESSING: for oedc12vyq
+2022112150043-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2022112150043-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1149, expected pkts = 1150 (single readout), total pkts = 1150
+2022112150043-I-INFO DPI_task::DP_close_oldobs:  1149 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2022112150043-I-INFO DP_close_files:  ...oedc12vyq.pkx was closed
+2022112150043-I-INFO DP_close_files:  ...oedc12vyq.bdx was closed
+2022112150044-I-INFO DP_close_files:  ...oedc12vyq.ulx was closed
+2022112150044-I-INFO DP_close_files:  ...oedc12vyq.pki was closed
+2022112150044-I-INFO DP_close_files:  ...oedc12vyq.uli was closed
+2022112150044-I-INFO DPI_task::DP_close_oldobs:  Copied ...oedc12w1q.shx to ...oedc12vyq.shx
+2022112150044-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oedc12vyq ------------
+2022112151346-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oedc12vyq ------------
+2022112151346-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oedc12vyq ------------
+2022112151348-I-INFO dv_DataValidation:  -------------- Data Validation Started: oedc12vyq ------------
+2022112151348-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2022.112:07:29:09
+2022112151348-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2022.112:07:29:09 using yurintab date: 2018.249:22:15:00
+2022112151348-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 4
+2022112151348-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2022112151348-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oedc12vyq ------------
+2022112151348-I-INFO ----------- World Coordinate System Started: oedc12vyq ---------
+2022112151348-I-INFO ----------- World Coordinate System Ended:   oedc12vyq ---------
+2022112151348-I-INFO GC_load_...s: ...oedc12vyq.dvx maxgroup=1
+2022112151348-I-INFO GC_load_...s: ...oedc12vyq.dgx maxgroup=0
+2022112151348-I-INFO GC_load_...s: ...oedc12vyq.dcx maxgroup=1
+2022112151348-I-INFO GCO_init_obs: oedc12vyq is a WAVECAL
+2022112151348-I-INFO -------------- Generic Conversion Completed: oedc12vyq -------------
+2022112151348-I-INFO -------------- Generic Conversion Started: oedc12010:oedc12vzq -------------
+2022112150044-I-INFO -------------- Data Partitioning Started: oedc12vzq ------------
+2022112150044-I-INFO Partitioning from POD file: lz_492f_248_0000208767
+2022112150044-I-INFO OSF_PROCESSING: for oedc12vzq
+2022112150044-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2022112150044-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1149, expected pkts = 1150 (single readout), total pkts = 1150
+2022112150044-I-INFO DPI_task::DP_close_oldobs:  1149 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2022112150044-I-INFO DP_close_files:  ...oedc12vzq.pkx was closed
+2022112150044-I-INFO DP_close_files:  ...oedc12vzq.bdx was closed
+2022112150044-I-INFO DP_close_files:  ...oedc12vzq.ulx was closed
+2022112150044-I-INFO DP_close_files:  ...oedc12vzq.pki was closed
+2022112150044-I-INFO DP_close_files:  ...oedc12vzq.uli was closed
+2022112150044-I-INFO DPI_task::DP_close_oldobs:  Copied ...oedc12w1q.shx to ...oedc12vzq.shx
+2022112150044-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oedc12vzq ------------
+2022112151346-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oedc12vzq ------------
+2022112151347-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oedc12vzq ------------
+2022112151348-I-INFO dv_DataValidation:  -------------- Data Validation Started: oedc12vzq ------------
+2022112151348-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2022.112:07:31:25
+2022112151348-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2022.112:07:31:25 using yurintab date: 2018.249:22:15:00
+2022112151348-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 1
+2022112151348-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2022112151348-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oedc12vzq ------------
+2022112151348-I-INFO ----------- World Coordinate System Started: oedc12vzq ---------
+2022112151348-I-INFO ----------- World Coordinate System Ended:   oedc12vzq ---------
+2022112151348-I-INFO GC_load_...s: ...oedc12vzq.dvx maxgroup=1
+2022112151348-I-INFO GC_load_...s: ...oedc12vzq.dgx maxgroup=0
+2022112151348-I-INFO GC_load_...s: ...oedc12vzq.dcx maxgroup=1
+2022112151349-I-INFO -------------- Generic Conversion Completed: oedc12vzq -------------
+2022112151349-I-INFO -------------- Generic Conversion Started: oedc12010:oedc12w0q -------------
+2022112150040-I-INFO -------------- Data Partitioning Started: oedc12w0q ------------
+2022112150040-I-INFO Partitioning from POD file: lz_4930_251_0000208769
+2022112150040-I-INFO OSF_PROCESSING: for oedc12w0q
+2022112150040-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2022112150040-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1149, expected pkts = 1150 (single readout), total pkts = 1150
+2022112150040-I-INFO DPI_task::DP_close_oldobs:  1149 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2022112150040-I-INFO DP_close_files:  ...oedc12w0q.pkx was closed
+2022112150040-I-INFO DP_close_files:  ...oedc12w0q.bdx was closed
+2022112150040-I-INFO DP_close_files:  ...oedc12w0q.ulx was closed
+2022112150040-I-INFO DP_close_files:  ...oedc12w0q.pki was closed
+2022112150040-I-INFO DP_close_files:  ...oedc12w0q.uli was closed
+2022112150040-I-INFO DPI_task::DP_close_oldobs:  Copied ...oedc12w2q.shx to ...oedc12w0q.shx
+2022112150040-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oedc12w0q ------------
+2022112151347-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oedc12w0q ------------
+2022112151347-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oedc12w0q ------------
+2022112151348-I-INFO dv_DataValidation:  -------------- Data Validation Started: oedc12w0q ------------
+2022112151348-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2022.112:07:38:04
+2022112151348-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2022.112:07:38:04 using yurintab date: 2018.249:22:15:00
+2022112151348-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 1
+2022112151348-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2022112151348-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oedc12w0q ------------
+2022112151348-I-INFO ----------- World Coordinate System Started: oedc12w0q ---------
+2022112151348-I-INFO ----------- World Coordinate System Ended:   oedc12w0q ---------
+2022112151349-I-INFO GC_load_...s: ...oedc12w0q.dvx maxgroup=1
+2022112151349-I-INFO GC_load_...s: ...oedc12w0q.dgx maxgroup=0
+2022112151349-I-INFO GC_load_...s: ...oedc12w0q.dcx maxgroup=1
+2022112151349-I-INFO -------------- Generic Conversion Completed: oedc12w0q -------------
+2022112151349-I-INFO GCO_STIS: -------------- Generic Conversion Completed: oedc12010 ------------- 
+2022112151349-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: oedc12010 ------------
+2022112151416-I-INFO-exposure_times-Start ------ Exposure Times Updater for oedc12010 ------
+2022112151416-I-INFO-exposure_times-Using oedc12010_raw.fits
+2022112151416-I-INFO-exposure_times-For oedc12vzq, start 2022.112:07:31:32, end 2022.112:07:37:24
+2022112151416-I-INFO-exposure_times-For oedc12w0q, start 2022.112:07:38:08, end 2022.112:07:44:00
+2022112151416-I-INFO-exposure_times-Using oedc12010_wav.fits
+2022112151416-I-INFO-exposure_times-For oedc12vyq, start 2022.112:07:30:21, end 2022.112:07:30:31
+2022112151416-I-INFO-exposure_times-Updated 3 qolink_sms exposure times records.
+2022112151416-I-INFO-exposure_times-  End ------ Exposure Times Updater for oedc12010 ------
+CALBEG ------------ Fri Apr 22 15:14:25 UTC 2022------------------
+
+*** CALSTIS-0 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    22-Apr-2022 15:14:26 UTC
+2022112151426-I--------------- CALSTIS started ---------------------------------
+
+Input    oedc12010_raw.fits
+Wavecal  oedc12010_wav.fits
+
+*** CALSTIS-1 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    22-Apr-2022 15:14:26 UTC
+2022112151426-I--------------- CALSTIS-1 started -------------------------------
+Input    oedc12010_raw.fits
+Output   oedc12010_blv_tmp.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G430L
+DETECTOR CCD
+2022112151426-I--------------- Begin processing: OEDC12010 ---------------------
+
+Imset 1  Begin 15:14:26 UTC
+2022112151426-I--------------- Input read into memory: OEDC12010 ---------------
+Epcfile  oedc12vzj_epc.fits
+Warning  EPCTAB `oedc12vzj_epc.fits' not found.
+         Heliocentric radial velocity = 12.370 (km/s)
+
+CCDTAB   oref$16j1600do_ccd.fits
+CCDTAB   PEDIGREE=INFLIGHT 01/05/2009 01/05/2009
+CCDTAB   DESCRIP =Updated amp=D gain=4 atodgain and corresponding readnoise values---
+CCDTAB   DESCRIP =Proposal 8057, by I. Dashevsky & P. Goudfrooij
+
+DQICORR  PERFORM
+DQITAB   oref$h1v11475o_bpx.fits
+DQITAB   PEDIGREE=GROUND
+DQITAB   DESCRIP =Prel. Ground Calib
+DQICORR  COMPLETE
+2022112151426-I--------------- DQICORR complete: OEDC12010 ---------------------
+
+ATODCORR OMIT
+
+BLEVCORR PERFORM
+         Bias level from overscan has been subtracted; \
+         mean of bias levels subtracted was 1479.03.
+BLEVCORR COMPLETE
+2022112151426-I--------------- BLEVCORR complete: OEDC12010 --------------------
+         Uncertainty array initialized, readnoise=6.24, gain=1
+2022112151426-I--------------- Uncertainty array initialized: OEDC12010 --------
+
+BIASCORR PERFORM
+BIASFILE oref$64c1930ko_bia.fits
+BIASFILE PEDIGREE=INFLIGHT 31/03/2022 06/04/2022
+BIASFILE DESCRIP =Refbias (1/D) for data taken after 2022-04-02----------------------
+BIASCORR COMPLETE
+2022112151427-I--------------- BIASCORR complete: OEDC12010 --------------------
+
+DARKCORR OMIT
+
+FLATCORR OMIT
+
+SHADCORR OMIT
+
+PHOTCORR OMIT
+2022112151427-I--------------- Output written to disk: OEDC12010 ---------------
+Imset 1  End 15:14:27 UTC
+
+Imset 2  Begin 15:14:27 UTC
+2022112151427-I--------------- Input read into memory: OEDC12010 ---------------
+Epcfile  oedc12w0j_epc.fits
+Warning  EPCTAB `oedc12w0j_epc.fits' not found.
+         Heliocentric radial velocity = 12.372 (km/s)
+
+DQICORR  PERFORM
+DQICORR  COMPLETE
+2022112151427-I--------------- DQICORR complete: OEDC12010 ---------------------
+
+ATODCORR OMIT
+
+BLEVCORR PERFORM
+         Bias level from overscan has been subtracted; \
+         mean of bias levels subtracted was 1481.12.
+BLEVCORR COMPLETE
+2022112151427-I--------------- BLEVCORR complete: OEDC12010 --------------------
+         Uncertainty array initialized, readnoise=6.24, gain=1
+2022112151427-I--------------- Uncertainty array initialized: OEDC12010 --------
+
+BIASCORR PERFORM
+BIASCORR COMPLETE
+2022112151427-I--------------- BIASCORR complete: OEDC12010 --------------------
+
+DARKCORR OMIT
+
+FLATCORR OMIT
+
+SHADCORR OMIT
+2022112151427-I--------------- Output written to disk: OEDC12010 ---------------
+Imset 2  End 15:14:27 UTC
+
+End      22-Apr-2022 15:14:27 UTC
+
+*** CALSTIS-1 complete ***
+2022112151427-I--------------- CALSTIS-1 completed: OEDC12010 ------------------
+
+*** CALSTIS-2 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    22-Apr-2022 15:14:27 UTC
+2022112151427-I--------------- CALSTIS-2 started -------------------------------
+Input    oedc12010_blv_tmp.fits
+Output   oedc12010_crj_tmp.fits
+
+CRCORR   PERFORM
+Total number of input image sets = 2
+CRREJTAB oref$j3m1403io_crr.fits
+
+ number of imsets = 2
+ ref table used: oref$j3m1403io_crr.fits
+ initial guess method: minimum
+ total exposure time = 704.0
+ sigmas used: 4.0
+ sky subtraction used: none
+ rejection radius = 1.5
+ propagation threshold = 0.8
+ scale noise = 0.0%
+ input bad bits value = 0
+ reset crmask = 1 (1 = yes)
+
+sky of 'oedc12010_blv_tmp.fits[sci,1]' is 0.000 DN
+sky of 'oedc12010_blv_tmp.fits[sci,2]' is 0.000 DN
+iteration 1
+CRCORR   COMPLETE
+
+End      22-Apr-2022 15:14:27 UTC
+
+*** CALSTIS-2 complete ***
+2022112151427-I--------------- CALSTIS-2 complete ------------------------------
+
+*** CALSTIS-1 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    22-Apr-2022 15:14:27 UTC
+2022112151427-I--------------- CALSTIS-1 started -------------------------------
+Input    oedc12010_crj_tmp.fits
+Output   oedc12010_crj.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G430L
+DETECTOR CCD
+2022112151427-I--------------- Begin processing: OEDC12010 ---------------------
+
+Imset 1  Begin 15:14:27 UTC
+2022112151427-I--------------- Input read into memory: OEDC12010 ---------------
+         Heliocentric radial velocity = 12.371 (km/s)
+
+CCDTAB   oref$16j1600do_ccd.fits
+CCDTAB   PEDIGREE=INFLIGHT 01/05/2009 01/05/2009
+CCDTAB   DESCRIP =Updated amp=D gain=4 atodgain and corresponding readnoise values---
+CCDTAB   DESCRIP =Proposal 8057, by I. Dashevsky & P. Goudfrooij
+
+DQICORR  OMIT
+
+ATODCORR OMIT
+
+BLEVCORR OMIT
+
+BIASCORR OMIT
+
+DARKCORR PERFORM
+DARKFILE oref$64c1930to_drk.fits
+DARKFILE PEDIGREE=INFLIGHT 13/03/2022 06/04/2022
+DARKFILE DESCRIP =Weekdark (amp=D) for data taken after 2022-04-02-------------------
+         Dark reference image was scaled by the factor 1.20838, \
+         in addition to the exposure time.
+DARKCORR COMPLETE
+2022112151428-I--------------- DARKCORR complete: OEDC12010 --------------------
+
+FLATCORR PERFORM
+PFLTFILE oref$x6417094o_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 24/10/2011 24/06/2012
+PFLTFILE DESCRIP =REVISED ON-ORBIT STIS SPECTROSCOPIC CCD P-FLAT FOR L-MODES---------
+LFLTFILE oref$pcc2026jo_lfl.fits
+LFLTFILE PEDIGREE=INFLIGHT 27/05/1997 03/08/2004
+LFLTFILE DESCRIP =CCD G430L Low-Order Flat
+FLATCORR COMPLETE
+2022112151428-I--------------- FLATCORR complete: OEDC12010 --------------------
+
+SHADCORR OMIT
+
+PHOTCORR OMIT
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+2022112151428-I--------------- STATFLAG complete: OEDC12010 --------------------
+2022112151428-I--------------- Output written to disk: OEDC12010 ---------------
+Imset 1  End 15:14:28 UTC
+
+End      22-Apr-2022 15:14:28 UTC
+
+*** CALSTIS-1 complete ***
+2022112151428-I--------------- CALSTIS-1 completed: OEDC12010 ------------------
+
+*** CALSTIS-1 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    22-Apr-2022 15:14:28 UTC
+2022112151428-I--------------- CALSTIS-1 started -------------------------------
+Input    oedc12010_blv_tmp.fits
+Output   oedc12010_flt.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G430L
+DETECTOR CCD
+2022112151428-I--------------- Begin processing: OEDC12010 ---------------------
+
+Imset 1  Begin 15:14:28 UTC
+2022112151428-I--------------- Input read into memory: OEDC12010 ---------------
+Epcfile  oedc12vzj_epc.fits
+Warning  EPCTAB `oedc12vzj_epc.fits' not found.
+         Heliocentric radial velocity = 12.370 (km/s)
+
+CCDTAB   oref$16j1600do_ccd.fits
+CCDTAB   PEDIGREE=INFLIGHT 01/05/2009 01/05/2009
+CCDTAB   DESCRIP =Updated amp=D gain=4 atodgain and corresponding readnoise values---
+CCDTAB   DESCRIP =Proposal 8057, by I. Dashevsky & P. Goudfrooij
+
+DQICORR  OMIT
+
+ATODCORR OMIT
+
+BLEVCORR OMIT
+
+BIASCORR OMIT
+
+DARKCORR PERFORM
+DARKFILE oref$64c1930to_drk.fits
+DARKFILE PEDIGREE=INFLIGHT 13/03/2022 06/04/2022
+DARKFILE DESCRIP =Weekdark (amp=D) for data taken after 2022-04-02-------------------
+         Dark reference image was scaled by the factor 1.20838, \
+         in addition to the exposure time.
+DARKCORR COMPLETE
+2022112151428-I--------------- DARKCORR complete: OEDC12010 --------------------
+
+FLATCORR PERFORM
+PFLTFILE oref$x6417094o_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 24/10/2011 24/06/2012
+PFLTFILE DESCRIP =REVISED ON-ORBIT STIS SPECTROSCOPIC CCD P-FLAT FOR L-MODES---------
+LFLTFILE oref$pcc2026jo_lfl.fits
+LFLTFILE PEDIGREE=INFLIGHT 27/05/1997 03/08/2004
+LFLTFILE DESCRIP =CCD G430L Low-Order Flat
+FLATCORR COMPLETE
+2022112151428-I--------------- FLATCORR complete: OEDC12010 --------------------
+
+SHADCORR OMIT
+
+PHOTCORR OMIT
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+2022112151428-I--------------- STATFLAG complete: OEDC12010 --------------------
+2022112151428-I--------------- Output written to disk: OEDC12010 ---------------
+Imset 1  End 15:14:28 UTC
+
+Imset 2  Begin 15:14:28 UTC
+2022112151429-I--------------- Input read into memory: OEDC12010 ---------------
+Epcfile  oedc12w0j_epc.fits
+Warning  EPCTAB `oedc12w0j_epc.fits' not found.
+         Heliocentric radial velocity = 12.372 (km/s)
+
+DQICORR  OMIT
+
+ATODCORR OMIT
+
+BLEVCORR OMIT
+
+BIASCORR OMIT
+
+DARKCORR PERFORM
+         Dark reference image was scaled by the factor 1.20838, \
+         in addition to the exposure time.
+DARKCORR COMPLETE
+2022112151429-I--------------- DARKCORR complete: OEDC12010 --------------------
+
+FLATCORR PERFORM
+FLATCORR COMPLETE
+2022112151429-I--------------- FLATCORR complete: OEDC12010 --------------------
+
+SHADCORR OMIT
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+2022112151429-I--------------- STATFLAG complete: OEDC12010 --------------------
+2022112151429-I--------------- Output written to disk: OEDC12010 ---------------
+Imset 2  End 15:14:29 UTC
+
+End      22-Apr-2022 15:14:29 UTC
+
+*** CALSTIS-1 complete ***
+2022112151429-I--------------- CALSTIS-1 completed: OEDC12010 ------------------
+
+*** CALSTIS-1 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    22-Apr-2022 15:14:29 UTC
+2022112151429-I--------------- CALSTIS-1 started -------------------------------
+Input    oedc12010_wav.fits
+Output   oedc12010_fwv_tmp.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G430L
+DETECTOR CCD
+2022112151429-I--------------- Begin processing: OEDC12010 ---------------------
+
+Imset 1  Begin 15:14:29 UTC
+2022112151429-I--------------- Input read into memory: OEDC12010 ---------------
+Epcfile  oedc12vyj_epc.fits
+Warning  EPCTAB `oedc12vyj_epc.fits' not found.
+
+CCDTAB   oref$16j1600do_ccd.fits
+CCDTAB   PEDIGREE=GROUND
+CCDTAB   DESCRIP =Updated amp=D gain=4 atodgain and corresponding readnoise values---
+CCDTAB   DESCRIP =Oct. 1996 Air Calibration
+
+DQICORR  PERFORM
+DQITAB   oref$h1v11475o_bpx.fits
+DQITAB   PEDIGREE=GROUND
+DQITAB   DESCRIP =Prel. Ground Calib
+DQICORR  COMPLETE
+2022112151429-I--------------- DQICORR complete: OEDC12010 ---------------------
+
+ATODCORR OMIT
+
+BLEVCORR PERFORM
+         Bias level from overscan has been subtracted; \
+         mean of bias levels subtracted was 1541.11.
+BLEVCORR COMPLETE
+2022112151429-I--------------- BLEVCORR complete: OEDC12010 --------------------
+         Uncertainty array initialized, readnoise=8.2328, gain=4.016
+2022112151429-I--------------- Uncertainty array initialized: OEDC12010 --------
+
+BIASCORR PERFORM
+BIASFILE oref$64c1930lo_bia.fits
+BIASFILE PEDIGREE=INFLIGHT 24/03/2022 06/04/2022
+BIASFILE DESCRIP =Refbias (4/D) for data taken after 2022-03-26----------------------
+BIASCORR COMPLETE
+2022112151429-I--------------- BIASCORR complete: OEDC12010 --------------------
+
+DARKCORR PERFORM
+DARKFILE oref$64c1930to_drk.fits
+DARKFILE PEDIGREE=INFLIGHT 13/03/2022 06/04/2022
+DARKFILE DESCRIP =Weekdark (amp=D) for data taken after 2022-04-02-------------------
+         Dark reference image was scaled by the factor 1.20838, \
+         in addition to the exposure time.
+DARKCORR COMPLETE
+2022112151429-I--------------- DARKCORR complete: OEDC12010 --------------------
+
+FLATCORR PERFORM
+PFLTFILE oref$x6417094o_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 24/10/2011 24/06/2012
+PFLTFILE DESCRIP =REVISED ON-ORBIT STIS SPECTROSCOPIC CCD P-FLAT FOR L-MODES---------
+LFLTFILE oref$pcc2026jo_lfl.fits
+LFLTFILE PEDIGREE=INFLIGHT 27/05/1997 03/08/2004
+LFLTFILE DESCRIP =CCD G430L Low-Order Flat
+FLATCORR COMPLETE
+2022112151429-I--------------- FLATCORR complete: OEDC12010 --------------------
+
+SHADCORR OMIT
+
+PHOTCORR OMIT
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+2022112151429-I--------------- STATFLAG complete: OEDC12010 --------------------
+2022112151429-I--------------- Output written to disk: OEDC12010 ---------------
+Imset 1  End 15:14:29 UTC
+
+End      22-Apr-2022 15:14:29 UTC
+
+*** CALSTIS-1 complete ***
+2022112151429-I--------------- CALSTIS-1 completed: OEDC12010 ------------------
+
+*** CALSTIS-7 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    22-Apr-2022 15:14:29 UTC
+2022112151429-I--------------- CALSTIS-7 started -------------------------------
+Input    oedc12010_fwv_tmp.fits
+Output   oedc12010_w2d_tmp.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G430L
+DETECTOR CCD
+2022112151429-I--------------- Begin processing: OEDC12010 ---------------------
+Imset 1  Begin 15:14:29 UTC
+
+Order 1  Begin 15:14:29 UTC
+         Delta = -0.00733 arcsec.
+         trace was rotated by = 0.0757118 degree.
+
+X2DCORR  PERFORM
+DISPCORR PERFORM
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 13/06/2017
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Microscope Meas./Hartig Post-launch Offsets
+SDCTAB   oref$16j16006o_sdc.fits
+SDCTAB   PEDIGREE=INFLIGHT 27/05/1997 13/06/2017
+SDCTAB   DESCRIP =Co-aligned fiducial bars via an update to the CDELT2 plate scales.-
+SDCTAB   DESCRIP =CDELT2 updated with inflight data, others Lindler/prelaunch
+DISPTAB  oref$l2j0137to_dsp.fits
+DISPTAB  PEDIGREE=INFLIGHT 27/02/1997 24/11/1999
+DISPTAB  DESCRIP =Lindler, May 2000
+DISPTAB  DESCRIP =Lindler Postlaunch, May 2000
+INANGTAB oref$h5s11397o_iac.fits
+INANGTAB PEDIGREE=GROUND
+INANGTAB DESCRIP =Model/C. Bowers May 6, 1997
+INANGTAB DESCRIP =Model/C. Bowers
+SPTRCTAB oref$qa31608go_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 13/02/1998
+SPTRCTAB DESCRIP =New traces to account for angle change with time
+SPTRCTAB DESCRIP =Lindler...Holfeltz postlaunch calibration
+2022112151429-I--------------- 2-D rectification complete: OEDC12010 -----------
+2022112151429-I--------------- STATFLAG complete: OEDC12010 --------------------
+X2DCORR  COMPLETE
+DISPCORR COMPLETE
+Order 1  End 15:14:29 UTC
+2022112151430-I--------------- Output written to disk: OEDC12010 ---------------
+Imset 1  End 15:14:30 UTC
+         trace was rotated by = 0.0757118 degree.
+
+End      22-Apr-2022 15:14:30 UTC
+
+*** CALSTIS-7 complete ***
+2022112151430-I--------------- CALSTIS-7 completed: OEDC12010 ------------------
+
+*** CALSTIS-4 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    22-Apr-2022 15:14:30 UTC
+2022112151430-I--------------- CALSTIS-4 started -------------------------------
+Input    oedc12010_w2d_tmp.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G430L
+DETECTOR CCD
+2022112151430-I--------------- Begin processing: OEDC12010 ---------------------
+         Wavecal parameters are: \
+         WL_TRIM1 = 0 \
+         WL_TRIM2 = 10 \
+         SP_TRIM1 = 10 \
+         SP_TRIM2 = 0 \
+         WL_RANGE = 63 \
+         SP_RANGE = 61 \
+         NSIGMA_CR = 3 \
+         NSIGMA_ILLUM = 2 \
+         MAD_REJECT = 3 \
+         MIN_MAD = 1
+
+Imset 1  Begin 15:14:30 UTC
+         Section to use for finding shift in dispersion direction: \
+             1:1201, 11:1191 \
+         Section to use for finding shift in spatial direction: \
+             11:1191, 1:1201 \
+         Image pixels are reference pixel size.
+
+WAVECORR PERFORM
+WCPTAB   oref$16j1600co_wcp.fits
+WCPTAB   PEDIGREE=GROUND
+WCPTAB   DESCRIP =Force G140M and G230L SHIFTA2 into single-bar mode via SP_TRIM2.---
+WCPTAB   DESCRIP =TRIM values modified
+LAMPTAB  oref$l421050oo_lmp.fits
+LAMPTAB  PEDIGREE=GROUND
+LAMPTAB  DESCRIP =Ground+Inflight Cal PT lamp, 3.8 & 10 mA
+LAMPTAB  DESCRIP =Ground Cal for non-PRISM, PT lamp 10 mA
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 13/06/2017
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Microscope Meas./Hartig Post-launch Offsets
+
+FLAGCR   PERFORM
+FLAGCR   COMPLETE
+         shift of bar 1 is -2.772, weight = 0.94567
+         shift of bar 2 is -2.675, weight = 0.96985
+         Shift in dispersion direction is 3.063 pixels.
+         Shift in spatial direction is -2.723 pixels.
+WAVECORR COMPLETE
+Imset 1  End 15:14:30 UTC
+2022112151430-I--------------- Ending current imset: OEDC12010 -----------------
+
+End      22-Apr-2022 15:14:30 UTC
+
+*** CALSTIS-4 complete ***
+2022112151430-I--------------- CALSTIS-4 completed: OEDC12010 ------------------
+
+*** CALSTIS-12 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    22-Apr-2022 15:14:30 UTC
+2022112151430-I--------------- CALSTIS-12 started ------------------------------
+Wavecal  oedc12010_w2d_tmp.fits
+Science  oedc12010_crj.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G430L
+DETECTOR CCD
+2022112151430-I--------------- Begin processing: OEDC12010 ---------------------
+Imset 1  Begin 15:14:30 UTC
+         SHIFTA1 set to 3.06292
+         SHIFTA2 set to -2.72276
+Imset 1  End 15:14:30 UTC
+2022112151430-I--------------- CALSTIS-12 completed: OEDC12010 -----------------
+
+End      22-Apr-2022 15:14:30 UTC
+
+*** CALSTIS-12 complete ***
+
+*** CALSTIS-12 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    22-Apr-2022 15:14:30 UTC
+2022112151430-I--------------- CALSTIS-12 started ------------------------------
+Wavecal  oedc12010_w2d_tmp.fits
+Science  oedc12010_flt.fits
+OBSMODE  ACCUM
+APERTURE 52X0.1
+OPT_ELEM G430L
+DETECTOR CCD
+2022112151430-I--------------- Begin processing: OEDC12010 ---------------------
+Imset 1  Begin 15:14:30 UTC
+         SHIFTA1 set to 3.06292
+         SHIFTA2 set to -2.72276
+Imset 1  End 15:14:30 UTC
+Imset 2  Begin 15:14:30 UTC
+         SHIFTA1 set to 3.06292
+         SHIFTA2 set to -2.72276
+Imset 2  End 15:14:30 UTC
+2022112151430-I--------------- CALSTIS-12 completed: OEDC12010 -----------------
+
+End      22-Apr-2022 15:14:30 UTC
+
+*** CALSTIS-12 complete ***
+
+*** CALSTIS-7 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    22-Apr-2022 15:14:30 UTC
+2022112151430-I--------------- CALSTIS-7 started -------------------------------
+Input    oedc12010_crj.fits
+Output   oedc12010_sx2.fits
+INFO     'E1' has been appended to aperture
+OBSMODE  ACCUM
+APERTURE 52X0.1E1
+OPT_ELEM G430L
+DETECTOR CCD
+2022112151430-I--------------- Begin processing: OEDC12010 ---------------------
+Imset 1  Begin 15:14:30 UTC
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+Order 1  Begin 15:14:30 UTC
+         Delta = -0.007785 arcsec.
+         trace was rotated by = 0.0757118 degree.
+
+X2DCORR  PERFORM
+DISPCORR PERFORM
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 13/06/2017
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Offset relative to row 900
+SDCTAB   oref$16j16006o_sdc.fits
+SDCTAB   PEDIGREE=INFLIGHT 27/05/1997 13/06/2017
+SDCTAB   DESCRIP =Co-aligned fiducial bars via an update to the CDELT2 plate scales.-
+SDCTAB   DESCRIP =CDELT2 updated with inflight data, others Lindler/prelaunch
+DISPTAB  oref$l2j0137to_dsp.fits
+DISPTAB  PEDIGREE=INFLIGHT 27/02/1997 24/11/1999
+DISPTAB  DESCRIP =Lindler, May 2000
+DISPTAB  DESCRIP =Lindler Postlaunch, May 2000
+INANGTAB oref$h5s11397o_iac.fits
+INANGTAB PEDIGREE=GROUND
+INANGTAB DESCRIP =Model/C. Bowers May 6, 1997
+INANGTAB DESCRIP =Model/C. Bowers
+SPTRCTAB oref$qa31608go_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 13/02/1998
+SPTRCTAB DESCRIP =New traces to account for angle change with time
+SPTRCTAB DESCRIP =Lindler...Holfeltz postlaunch calibration
+2022112151430-I--------------- 2-D rectification complete: OEDC12010 -----------
+
+FLUXCORR PERFORM
+PHOTTAB  oref$64719312o_pht.fits
+PHOTTAB  PEDIGREE=INFLIGHT 27/02/1997 14/04/1998
+PHOTTAB  DESCRIP =Updated sensitivity curves for G230LB and G430L
+PHOTTAB  DESCRIP =Updated Sensitivities 2022
+APERTAB  oref$y2r1559to_apt.fits
+APERTAB  PEDIGREE=MODEL
+APERTAB  DESCRIP =Added/updated values for 31X0.05NDA,31X0.05NDB,31X0.05NDC apertures
+APERTAB  DESCRIP =Bohlin/Hartig TIM Models Nov. 1998
+PCTAB    oref$q541740no_pct.fits
+PCTAB    PEDIGREE=INFLIGHT 18/5/1997 19/12/1998
+PCTAB    DESCRIP =Sensitivity for diff. extractions heights
+PCTAB    DESCRIP = 2 STIS observations averaged
+TDSTAB   oref$3ah1528ao_tds.fits
+TDSTAB   PEDIGREE=INFLIGHT 01/04/1997 27/07/2019
+TDSTAB   DESCRIP =Updated time and temperature sensitivities for all optical elements.
+FLUXCORR COMPLETE
+2022112151430-I--------------- FLUXCORR complete: OEDC12010 --------------------
+2022112151430-I--------------- STATFLAG complete: OEDC12010 --------------------
+X2DCORR  COMPLETE
+DISPCORR COMPLETE
+Order 1  End 15:14:30 UTC
+2022112151430-I--------------- Output written to disk: OEDC12010 ---------------
+Imset 1  End 15:14:30 UTC
+         trace was rotated by = 0.0757118 degree.
+
+End      22-Apr-2022 15:14:30 UTC
+
+*** CALSTIS-7 complete ***
+2022112151430-I--------------- CALSTIS-7 completed: OEDC12010 ------------------
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    22-Apr-2022 15:14:30 UTC
+2022112151430-I--------------- CALSTIS-6 started -------------------------------
+
+INFO     'E1' has been appended to aperture
+Input    oedc12010_crj.fits
+Output   oedc12010_sx1.fits
+Rootname oedc12010
+OBSMODE  ACCUM
+APERTURE 52X0.1E1
+OPT_ELEM G430L
+DETECTOR CCD
+
+XTRACTAB oref$n7p1031qo_1dx.fits
+XTRACTAB PEDIGREE=INFLIGHT 18/05/97
+XTRACTAB DESCRIP =Analysis from prop. 7094
+XTRACTAB DESCRIP =Analysis from prop. 7094
+SPTRCTAB oref$qa31608go_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 02/09/1997 13/02/1998
+SPTRCTAB DESCRIP =New traces to account for angle change with time
+
+Imset 1  Begin 15:14:30 UTC
+         Input read into memory.
+Order 1  Begin 15:14:30 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 889.17 pixels
+BACKCORR PERFORM
+******** Calling Slfit ***********BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2022112151430-I--------------- X1DCORR complete: OEDC12010 ---------------------
+         Spectrum extracted at y position = 893.743
+         Extraction box height = 7
+         Background box 1 height = 5 offset -300 from A2CENTER
+         Background box 2 height = 5 offset -320 from A2CENTER
+
+DISPCORR PERFORM
+DISPTAB  oref$l2j0137to_dsp.fits
+DISPTAB  PEDIGREE=INFLIGHT 27/02/1997 24/11/1999
+DISPTAB  DESCRIP =Lindler, May 2000
+DISPTAB  DESCRIP =Lindler Postlaunch, May 2000
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 13/06/2017
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Offset relative to row 900
+INANGTAB oref$h5s11397o_iac.fits
+INANGTAB DESCRIP =Model/C. Bowers May 6, 1997
+         Delta = -0.007785 arcsec.
+DISPCORR COMPLETE
+2022112151430-I--------------- DISPCORR complete: OEDC12010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2022112151430-I--------------- HELCORR complete: OEDC12010 ---------------------
+
+PHOTTAB  oref$64719312o_pht.fits
+PHOTTAB  PEDIGREE=INFLIGHT 27/02/1997 16/03/2021
+PHOTTAB  DESCRIP =Updated sensitivity curves for G230LB and G430L
+APERTAB  oref$y2r1559to_apt.fits
+APERTAB  PEDIGREE=MODEL
+APERTAB  DESCRIP =Added/updated values for 31X0.05NDA,31X0.05NDB,31X0.05NDC apertures
+APERTAB  DESCRIP =Bohlin/Hartig TIM Models Nov. 1998
+GACTAB   oref$p9r19203o_gac.fits
+GACTAB   PEDIGREE=INFLIGHT 07/12/2001 03/08/2004
+GACTAB   DESCRIP =X1D flux corr for grating/aper combos
+GACTAB   DESCRIP =Grating-Aperture Throughput Correction
+PCTAB    oref$q541740no_pct.fits
+PCTAB    PEDIGREE=INFLIGHT 18/05/1997 19/12/1998
+PCTAB    DESCRIP =Sensitivity for diff. extractions heights
+TDSTAB   oref$3ah1528ao_tds.fits
+TDSTAB   PEDIGREE=INFLIGHT 01/04/1997 27/07/2019
+TDSTAB   DESCRIP =Updated time and temperature sensitivities for all optical elements.
+FLUXCORR PERFORM
+CTECORR  PERFORM
+CCDTAB   oref$16j1600do_ccd.fits
+CCDTAB   PEDIGREE=INFLIGHT 01/05/2009 01/05/2009
+CCDTAB   DESCRIP =Updated amp=D gain=4 atodgain and corresponding readnoise values---
+CCDTAB   DESCRIP =Proposal 8057, by I. Dashevsky & P. Goudfrooij
+         GACTAB correction applied for G430L 52X0.1E1 4300
+CTECORR  COMPLETE
+FLUXCORR COMPLETE
+2022112151430-I--------------- FLUXCORR complete: OEDC12010 --------------------
+
+SGEOCORR OMIT
+
+         Row 1 written to disk.
+Order 1  End 15:14:30 UTC
+
+         trace was rotated by = 0.0757118 degree.
+Imset 1  End 15:14:30 UTC
+
+Warning  Keyword `XTRACALG' is being added to header.
+End      22-Apr-2022 15:14:30 UTC
+
+*** CALSTIS-6 complete ***
+2022112151430-I--------------- CALSTIS-6 completed: OEDC12010 ------------------
+
+End      22-Apr-2022 15:14:30 UTC
+
+*** CALSTIS-0 complete ***
+2022112151430-I--------------- CALSTIS completed: OEDC12010 --------------------
+CALEND ------------ Fri Apr 22 15:14:31 UTC 2022 ------------------
+2022112151439 INFO src=ac_xxx_OWL.run_task fsn=oedc12010 msg="-------------- After Calibration Started for   oedc12010 --------------"
+2022112151439 INFO src=ac_xxx_OWL-asn_product_status.banner_start fsn=oedc12010 msg="Start ------  Association Product Status Updater for oedc12010  ------"
+2022112151439 INFO src=ac_xxx_OWL-asn_product_status.get_asn_table fsn=oedc12010 msg="--- ASN: ...oedc12010_asn.fits"
+2022112151439 INFO src=ac_xxx_OWL-asn_product_status.build_query_list fsn=oedc12010 msg="The product_status for OEDC12010 is C"
+2022112151439 INFO src=ac_xxx_OWL-asn_product_status.asn_status_update fsn=oedc12010 msg="Updated 1 asn_members.product_status record."
+2022112151439 INFO src=ac_xxx_OWL-asn_product_status.banner_end fsn=oedc12010 msg="  End ------  Association Product Status Updater for oedc12010  ------"
+2022112151439 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2022112151439 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oedc12010 msg="Opening connection to ..., ..."
+2022112151439 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=oedc12010 msg="4 rows found for association oedc12010"
+2022112151439 INFO src=ac_xxx_OWL-hst_missionquery.get_proposal_id fsn=oedc12vyq msg="returning 16190 for oedc12vyq"
+2022112151439 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oedc12010 msg="HstScienceDataset(archive_product='oedc12010', archive_product_type='PRODUCT', dataset_type='asn', hst_db=<hst_missionquery.HST_Mission_db object at 0x2abd114b7d90>, instrument='sti', ipppssoot='oedc12010', log=<Logfile.Logfile object at 0x2abd175958e0>, product_exposures={'oedc12vyq': 'AUTO-WAVECAL', 'oedc12vzq': 'CRSPLIT', 'oedc12w0q': 'CRSPLIT'}, proposal_id='16190', subproducts={})"
+2022112151439 INFO src=ac_xxx_OWL.update_quality_...s fsn=oedc12010 msg="No pdq_summary_update records found for oedc12010."
+2022112151439 INFO src=ac_xxx_OWL.run_task fsn=oedc12010 msg="-------------- After Calibration Completed for oedc12010 --------------"

@@ -1,0 +1,46 @@
+2021284134914-I-INFO -------------- Data Partitioning Started: oeax08d9q ------------
+2021284134914-I-INFO Partitioning from POD file: lz_490a_254_0000182995
+2021284134914-I-INFO OSF_PROCESSING: for oeax08d9q
+2021284134914-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021284134914-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 25, expected pkts = 12 (single readout), total pkts = 26
+2021284134914-I-INFO DPI_task::DP_close_oldobs:  23 Science packets, 3 Engineering (ULX) packets, 0 Bad pkts
+2021284134914-I-INFO DP_close_files:  ...oeax08d9q.pkx was closed
+2021284134914-I-INFO DP_close_files:  ...oeax08d9q.bdx was closed
+2021284134914-I-INFO DP_close_files:  ...oeax08d9q.ulx was closed
+2021284134914-I-INFO DP_close_files:  ...oeax08d9q.pki was closed
+2021284134914-I-INFO DP_close_files:  ...oeax08d9q.uli was closed
+2021284134914-I-INFO DPI_task::DP_close_oldobs:  Copied ...oeax08dcq.shx to ...oeax08d9q.shx
+2021284134914-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   oeax08d9q ------------
+2021303024143-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: oeax08d9q ------------
+2021303024143-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: oeax08d9q ------------
+2021303024144-I-INFO dv_DataValidation:  -------------- Data Validation Started: oeax08d9q ------------
+2021303024144-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.284:11:53:26
+2021303024144-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.284:11:53:26 using yurintab date: 2018.249:22:15:00
+2021303024144-I-INFO dv_STIS::DV_check_ssgain:  DV mismatch: SS_GAIN = 0, CCDGAINn = 4
+2021303024144-I-INFO dv_STIS::compare:  Mismatched weight (10) was lower than threshold (55)
+2021303024144-I-INFO dv_DataValidation:  -------------- Data Validation Completed: oeax08d9q ------------
+2021303024144-I-INFO ----------- World Coordinate System Started: oeax08d9q ---------
+2021303024144-I-INFO ----------- World Coordinate System Ended:   oeax08d9q ---------
+2021303024144-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: oeax08d9q ------------
+2021303024144-I-INFO GCO_STIS: Starting...
+2021303024144-I-INFO GCO_poll_status: ===================================================================
+2021303024144-I-INFO GCO_poll_status: -------------- Generic Conversion Processing: oeax08d9q ------------- 
+2021303024144-I-INFO -------------- Generic Conversion Started: oeax08d9q -------------
+2021303024144-I-INFO GC_load_...s: ...oeax08d9q.dvx maxgroup=3
+2021303024144-I-INFO GC_load_...s: ...oeax08d9q.dgx maxgroup=0
+2021303024144-I-INFO GC_load_...s: ...oeax08d9q.dcx maxgroup=3
+2021303024144-W-WARN DBMS_asn_count_collected_exp: No records found for this query: SELECT COUNT(*) collect_count FROM qeassociation a WHERE a.association_id = @association_id AND a.alignment_id != ' ' AND a.collect='Y' 
+2021303024144-W-WARN DBMS_asn_count_collected_exp: Where @association_id is 
+2021303024144-I-INFO -------------- Generic Conversion Completed: oeax08d9q -------------
+2021303024144-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: oeax08d9q ------------
+2021303024145-I-INFO-exposure_times-Start ------ Exposure Times Updater for oeax08d9q ------
+2021303024145-I-INFO-exposure_times-UPDATE_EXPOSURE_TIMES is False. No update necessary.
+2021303024145-I-INFO-exposure_times-  End ------ Exposure Times Updater Nothing to do for oeax08d9q ------
+2021303025159 INFO src=ac_xxx_OWL.run_task fsn=oeax08d9q msg="-------------- After Calibration Started for   oeax08d9q --------------"
+2021303025159 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2021303025159 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oeax08d9q msg="Opening connection to ..., ..."
+2021303025159 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=oeax08d9q msg="0 rows found for association oeax08d9q"
+2021303025159 INFO src=ac_xxx_OWL-hst_missionquery.get_proposal_id fsn=oeax08d9q msg="returning 16238 for oeax08d9q"
+2021303025159 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=oeax08d9q msg="HstScienceDataset(archive_product='oeax08d9q', archive_product_type='SINGLETON', dataset_type='single', hst_db=<hst_missionquery.HST_Mission_db object at 0x2ac10e84dc40>, instrument='sti', ipppssoot='oeax08d9q', log=<Logfile.Logfile object at 0x2ac10e84d340>, product_exposures={'oeax08d9q': 'SINGLETON'}, proposal_id='16238', subproducts={})"
+2021303025159 INFO src=ac_xxx_OWL.update_quality_...s fsn=oeax08d9q msg="Successfully updated QUAL* ...s for oeax08d9q"
+2021303025159 INFO src=ac_xxx_OWL.run_task fsn=oeax08d9q msg="-------------- After Calibration Completed for oeax08d9q --------------"
