@@ -1,0 +1,10 @@
+fdump oeax05040_sx1.fits columns="wavelength,flux,error,dq" outfile=SN2021dov_opt_20210313_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump oeax05020_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2021dov_muv_20210313_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump oeax05030_sx1.fits columns="wavelength,flux,error,dq" outfile=SN2021dov_nuv_20210313_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump oeax05010_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2021dov_muv_20210313_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+###################
