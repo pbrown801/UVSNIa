@@ -1,0 +1,18 @@
+
+
+# separate exposures wit dq
+fdump ld4901010_x1dsum1.fits\[1\] columns="wavelength,flux,error,dq" outfile=Gaia16apd_fuv_20160602_1dq.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ld4901010_x1dsum2.fits\[1\] columns="wavelength,flux,error,dq" outfile=Gaia16apd_fuv_20160602_2dq.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ld4901010_x1dsum3.fits\[1\] columns="wavelength,flux,error,dq" outfile=Gaia16apd_fuv_20160602_3dq.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ld4901010_x1dsum4.fits\[1\] columns="wavelength,flux,error,dq" outfile=Gaia16apd_fuv_20160602_4dq.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump ld4901010_x1dsum.fits\[1\] columns="wavelength,flux,error,dq" outfile=Gaia16apd_fuv_20160602_obs.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump od4902010_x1d.fits\[1\] columns="wavelength,flux,error,dq" outfile=Gaia16apd_muv_20160602_obs.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump od4903010_x1d.fits\[1\] columns="wavelength,flux,error,dq" outfile=Gaia16apd_muv_20160614_obs.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump od4914010_x1d.fits\[1\] columns="wavelength,flux,error,dq" outfile=Gaia16apd_muv_20160630_obs.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+

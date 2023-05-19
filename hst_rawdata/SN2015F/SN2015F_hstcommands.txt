@@ -1,0 +1,5 @@
+fdump ock415010_x1d.fits columns="wavelength,flux" outfile=SN2015F_uv_20150326_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock415020_sx1.fits columns="wavelength,flux" outfile=SN2015F_opt_20150326_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock415030_sx1.fits columns="wavelength,flux" outfile=SN2015F_nir_20150326_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no

@@ -1,0 +1,117 @@
+fdump ock405010_x1d.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_uv_20141224_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock405020_sx1.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_opt_20141224_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock405030_sx1.fits columns="wavelength,flux" outfile=ASASSN-14lp_nir_20141224_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump ock401010_x1d.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_uv_20141215_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump ock401020_x1d.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_uv_20141215_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock401030_sx1.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_opt_20141215_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock401040_sx1.fits columns="wavelength,flux" outfile=ASASSN-14lp_nir_20141215_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+
+fdump ock402010_x1d.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_uv_20141217_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock402020_sx1.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_opt_20141217_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock402030_sx1.fits columns="wavelength,flux" outfile=ASASSN-14lp_nir_20141217_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump ock403010_x1d.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_uv_20141219_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock403020_sx1.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_opt_20141219_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock403030_sx1.fits columns="wavelength,flux" outfile=ASASSN-14lp_nir_20141219_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+fdump ock404010_x1d.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_uv_20141222_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock404020_sx1.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_opt_20141222_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock404030_sx1.fits columns="wavelength,flux" outfile=ASASSN-14lp_nir_20141222_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump ock406010_x1d.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_uv_20141226_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock406020_sx1.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_opt_20141226_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock406030_sx1.fits columns="wavelength,flux" outfile=ASASSN-14lp_nir_20141226_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump ock407010_x1d.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_uv_20141229_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock407020_sx1.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_opt_20141229_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock407030_sx1.fits columns="wavelength,flux" outfile=ASASSN-14lp_nir_20141229_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock408010_x1d.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_uv_20150101_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock408020_sx1.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_opt_20150101_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock408030_sx1.fits columns="wavelength,flux" outfile=ASASSN-14lp_nir_20150101_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump ock409010_x1d.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_uv_20150104_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock409020_sx1.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_opt_20150104_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock409030_sx1.fits columns="wavelength,flux" outfile=ASASSN-14lp_nir_20150104_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump ock410020_x1d.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_uv_20150111_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock410030_sx1.fits\[1\] columns="wavelength,flux" outfile=ASASSN-14lp_opt_20150111_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump ock410040_sx1.fits columns="wavelength,flux" outfile=ASASSN-14lp_nir_20150111_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+cat ASASSN-14lp_uv_20141224_1.dat > ASASSN-14lp_hst_20141224.dat
+cat ASASSN-14lp_opt_20141224_1.dat >> ASASSN-14lp_hst_20141224.dat
+cat ASASSN-14lp_nir_20141224_1.dat >> ASASSN-14lp_hst_20141224.dat
+
+cat ASASSN-14lp_uv_20141215_2.dat > ASASSN-14lp_hst_20141215.dat
+cat ASASSN-14lp_opt_20141215_1.dat >> ASASSN-14lp_hst_20141215.dat
+cat ASASSN-14lp_nir_20141215_1.dat >> ASASSN-14lp_hst_20141215.dat
+
+cat ASASSN-14lp_uv_20141217_1.dat > ASASSN-14lp_hst_20141217.dat
+cat ASASSN-14lp_opt_20141217_1.dat >> ASASSN-14lp_hst_20141217.dat
+cat ASASSN-14lp_nir_20141217_1.dat >> ASASSN-14lp_hst_20141217.dat
+
+cat ASASSN-14lp_uv_20141219_1.dat > ASASSN-14lp_hst_20141219.dat
+cat ASASSN-14lp_opt_20141219_1.dat >> ASASSN-14lp_hst_20141219.dat
+cat ASASSN-14lp_nir_20141219_1.dat >> ASASSN-14lp_hst_20141219.dat
+cat ASASSN-14lp_uv_20141224_1.dat > ASASSN-14lp_hst_20141224.dat
+cat ASASSN-14lp_opt_20141224_1.dat >> ASASSN-14lp_hst_20141224.dat
+cat ASASSN-14lp_nir_20141224_1.dat >> ASASSN-14lp_hst_20141224.dat
+
+cat ASASSN-14lp_uv_20141222_1.dat > ASASSN-14lp_hst_20141222.dat
+cat ASASSN-14lp_opt_20141222_1.dat >> ASASSN-14lp_hst_20141222.dat
+cat ASASSN-14lp_nir_20141222_1.dat >> ASASSN-14lp_hst_20141222.dat
+
+cat ASASSN-14lp_uv_20141226_1.dat >   ASASSN-14lp_hst_20141226.dat
+cat ASASSN-14lp_opt_20141226_1.dat >> ASASSN-14lp_hst_20141226.dat
+cat ASASSN-14lp_nir_20141226_1.dat >> ASASSN-14lp_hst_20141226.dat
+
+cat ASASSN-14lp_uv_20141229_1.dat   > ASASSN-14lp_hst_20141229.dat
+cat ASASSN-14lp_opt_20141229_1.dat >> ASASSN-14lp_hst_20141229.dat
+cat ASASSN-14lp_nir_20141229_1.dat >> ASASSN-14lp_hst_20141229.dat
+
+
+cat ASASSN-14lp_uv_20150101_1.dat   > ASASSN-14lp_hst_20150101.dat
+cat ASASSN-14lp_opt_20150101_1.dat >> ASASSN-14lp_hst_20150101.dat
+cat ASASSN-14lp_nir_20150101_1.dat >> ASASSN-14lp_hst_20150101.dat
+
+cat ASASSN-14lp_uv_20150104_1.dat   > ASASSN-14lp_hst_20150104.dat
+cat ASASSN-14lp_opt_20150104_1.dat >> ASASSN-14lp_hst_20150104.dat
+cat ASASSN-14lp_nir_20150104_1.dat >> ASASSN-14lp_hst_20150104.dat
+
+cat ASASSN-14lp_uv_20150111_1.dat   > ASASSN-14lp_hst_20150111.dat
+cat ASASSN-14lp_opt_20150111_1.dat >> ASASSN-14lp_hst_20150111.dat
+cat ASASSN-14lp_nir_20150111_1.dat >> ASASSN-14lp_hst_20150111.dat
+

@@ -1,0 +1,59 @@
+fdump odai05010_sx1.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_opt_20170629_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump odai05040_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170629_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump odai05020_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170629_1.dat rows=1 prhead=no showcol=no showunit=no showrow=n
+fdump odai05030_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170629_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+fdump odai06010_sx1.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_opt_20170702_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump odai06020_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170702_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump odai06030_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170702_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump odai06040_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170702_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+
+fdump odai07010_sx1.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_opt_20170707_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump odai07020_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170707_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump odai07030_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170707_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump odai07040_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170707_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump odai08010_sx1.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_opt_20170712_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump odai08020_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170712_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump odai08030_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170712_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump odai08040_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170712_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump odai08050_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170712_4.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump odai08060_x1d.fits columns="wavelength,flux,error,dq" outfile=SN2017erp_uv_20170712_5.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+
+
+
+fkeyprint odai05010_sx1.fits expstart
+fkeyprint odai05010_sx1.fits expend
+fkeyprint odai05020_x1d.fits  expstart
+fkeyprint  odai05040_x1d.fits  expend
+
+fkeyprint  odai06030_x1d.fits  expstart
+fkeyprint  odai06030_x1d.fits  expend
+fkeyprint  odai06010_sx1.fits  expstart
+fkeyprint  odai06040_x1d.fits  expend
+
+
+fkeyprint  odai07010_sx1.fits  expstart
+fkeyprint  odai07010_sx1.fits  expend
+fkeyprint  odai07020_x1d.fits  expstart
+fkeyprint  odai07040_x1d.fits  expend
+
+fkeyprint  odai08010_sx1.fits  expstart
+fkeyprint  odai08010_sx1.fits expend
+fkeyprint  odai08020_x1d.fits  expstart
+fkeyprint  odai08060_x1d.fits  expend
+
+

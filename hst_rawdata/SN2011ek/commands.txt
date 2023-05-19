@@ -1,0 +1,288 @@
+
+
+# SN2011ek/
+
+fdump SN2011ek/obnd36010_sx1.fits columns="wavelength,flux" outfile=SN2011ek_opt_20110812.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011ek/obnd41010_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011ek_uv_20110812_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011ek/obnd41010_x1d.fits\[2\] columns="wavelength,flux" outfile=SN2011ek_uv_20110812_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011ek/obnd41010_x1d.fits\[3\] columns="wavelength,flux" outfile=SN2011ek_uv_20110812_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump SN2011ek/obnd38010_sx1.fits columns="wavelength,flux" outfile=SN2011ek_opt_20110819.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011ek/obnd42010_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011ek_uv_20110819_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011ek/obnd42010_x1d.fits\[2\] columns="wavelength,flux" outfile=SN2011ek_uv_20110819_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+#### SN2011iv
+
+
+fdump SN2011iv/obwr11010_x1d.fits columns="wavelength,flux" outfile=SN2011iv_uv_20111211_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr11020_x1d.fits columns="wavelength,flux" outfile=SN2011iv_uv_20111211_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr11030_sx1.fits columns="wavelength,flux" outfile=SN2011iv_opt_20111211_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr11040_sx1.fits columns="wavelength,flux" outfile=SN2011iv_opt_20111211_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr11050_sx1.fits columns="wavelength,flux" outfile=SN2011iv_red_20111211_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr11060_sx1.fits columns="wavelength,flux" outfile=SN2011iv_red_20111211_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+fdump SN2011iv/obwr12010_x1d.fits columns="wavelength,flux" outfile=SN2011iv_uv_20111215_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr12020_sx1.fits columns="wavelength,flux" outfile=SN2011iv_opt_20111215_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr12030_sx1.fits columns="wavelength,flux" outfile=SN2011iv_red_20111215_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+fdump SN2011iv/obwr13010_x1d.fits columns="wavelength,flux" outfile=SN2011iv_uv_20111220_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr13020_sx1.fits columns="wavelength,flux" outfile=SN2011iv_opt_20111220_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr13030_sx1.fits columns="wavelength,flux" outfile=SN2011iv_red_20111220_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+
+
+fdump SN2011iv/obwr14010_x1d.fits columns="wavelength,flux" outfile=SN2011iv_uv_20111224_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr14020_sx1.fits columns="wavelength,flux" outfile=SN2011iv_opt_20111224_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr14030_sx1.fits columns="wavelength,flux" outfile=SN2011iv_red_20111224_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+
+
+fdump SN2011iv/obwr15010_x1d.fits columns="wavelength,flux" outfile=SN2011iv_uv_20111228_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr15020_sx1.fits columns="wavelength,flux" outfile=SN2011iv_opt_20111228_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr15030_sx1.fits columns="wavelength,flux" outfile=SN2011iv_red_20111228_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+
+
+fdump SN2011iv/obwr16010_x1d.fits columns="wavelength,flux" outfile=SN2011iv_uv_20120101_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr16020_sx1.fits columns="wavelength,flux" outfile=SN2011iv_opt_20120101_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr16030_sx1.fits columns="wavelength,flux" outfile=SN2011iv_red_20120101_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+
+
+fdump SN2011iv/obwr17010_x1d.fits columns="wavelength,flux" outfile=SN2011iv_uv_20120109_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr17020_sx1.fits columns="wavelength,flux" outfile=SN2011iv_opt_20120109_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011iv/obwr17030_sx1.fits columns="wavelength,flux" outfile=SN2011iv_red_20120109_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+# SN2011by
+
+
+fdump SN2011by/obnd13010_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011by_uv_20110430_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011by/obnd13010_x1d.fits\[2\] columns="wavelength,flux" outfile=SN2011by_uv_20110430_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011by/obnd13010_x1d.fits\[3\] columns="wavelength,flux" outfile=SN2011by_uv_20110430_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011by/obnd08010_sx1.fits columns="wavelength,flux" outfile=SN2011by_opt_20110430_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+fdump SN2011by/obnd14010_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011by_uv_20110509_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011by/obnd14010_x1d.fits\[2\] columns="wavelength,flux" outfile=SN2011by_uv_20110509_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump SN2011by/obnd10010_sx1.fits columns="wavelength,flux" outfile=SN2011by_opt_20110509_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+# SN2010jn
+
+
+fdump SN2010jn/obnd06010_sx1.fits\[1\] columns="wavelength,flux" outfile=SN2010jn_uv_20101026_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump SN2010jn/obnd03010_sx1.fits columns="wavelength,flux" outfile=SN2010jn_opt_20101026_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+# SN2011fe
+
+
+
+fdump SN2011fe/obnd48010_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20110828_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd48010_x1d.fits\[2\] columns="wavelength,flux" outfile=SN2011fe_uv_20110828_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd43010_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20110828_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd43020_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20110828_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+
+
+fdump SN2011fe/obnd49010_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20110831_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd49010_x1d.fits\[2\] columns="wavelength,flux" outfile=SN2011fe_uv_20110831_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd44010_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20110831_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump SN2011fe/obnd44020_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20110831_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd44030_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20110831_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd44040_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20110831_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+fdump SN2011fe/obnd45010_sx1.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20110903_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd45020_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20110903_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd45030_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20110903_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+
+
+fdump SN2011fe/obnd46020_sx1.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20110907_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd46010_sx1.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20110907_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd46040_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20110907_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd46030_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20110907_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd46060_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20110907_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd46050_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20110907_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+# 
+
+fdump SN2011fe/obnd47020_sx1.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20110910_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd47010_sx1.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20110910_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd47040_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20110910_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd47030_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20110910_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd47060_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20110910_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd47050_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20110910_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+#
+
+# 
+
+fdump SN2011fe/obnd50080_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_fuv_20110913_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd50090_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_fuv_20110913_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd500a0_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_fuv_20110913_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd50020_sx1.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20110913_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump obnd50020_sx1.fits\[1\] columns="wavelength,net" outfile=SN2011fe_uv_20110913_net.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd50010_sx1.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20110913_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd50040_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20110913_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd50030_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20110913_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd50060_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20110913_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd50050_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20110913_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+#
+
+fdump SN2011fe/obnd51020_sx1.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20110919_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd51010_sx1.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20110919_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd51080_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20110919_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd51040_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20110919_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd51030_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20110919_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd51060_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20110919_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd51050_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20110919_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+#
+
+
+
+# 
+
+fdump SN2011fe/obnd52060_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20111001_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd52070_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20111001_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd52010_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20111001_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd52020_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20111001_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd52030_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20111001_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd52040_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20111001_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+#
+
+
+# 
+
+fdump SN2011fe/obnd53060_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20111007_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd53070_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20111007_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd53010_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20111007_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd53020_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20111007_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd53030_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20111007_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd53040_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20111007_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+#
+
+# 
+
+fdump SN2011fe/obnd54060_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20111021_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd54070_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011fe_uv_20111021_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd54010_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20111021_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd54020_sx1.fits columns="wavelength,flux" outfile=SN2011fe_opt_20111021_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd54030_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20111021_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump SN2011fe/obnd54040_sx1.fits columns="wavelength,flux" outfile=SN2011fe_red_20111021_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+#
+
+fdump h_stis_ngsl_bd442051_v2.fits columns="wavelength,flux" outfile=bd442051.dat rows=- prhead=no showcol=no showunit=no showrow=no
+
+fdump h_stis_ngsl_hd102780_v2.fits columns="wavelength,flux" outfile=hd102780.dat rows=- prhead=no showcol=no showunit=no showrow=no
+
+
+fdump h_stis_ngsl_hd118055_v2.fits columns="wavelength,flux" outfile=hd118055.dat rows=- prhead=no showcol=no showunit=no showrow=no
+
+fdump h_stis_ngsl_mmj6476_v2.fits columns="wavelength,flux" outfile=mmj6476.dat rows=- prhead=no showcol=no showunit=no showrow=no
+

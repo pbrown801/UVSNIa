@@ -1,0 +1,25 @@
+# SN2011by
+
+fdump obnd13010_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011by_uv_20110430_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump obnd13010_x1d.fits\[2\] columns="wavelength,flux" outfile=SN2011by_uv_20110430_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump obnd13010_x1d.fits\[3\] columns="wavelength,flux" outfile=SN2011by_uv_20110430_3.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump obnd08010_sx1.fits columns="wavelength,flux" outfile=SN2011by_opt_20110430_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump obnd14010_x1d.fits\[1\] columns="wavelength,flux" outfile=SN2011by_uv_20110509_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump obnd14010_x1d.fits\[2\] columns="wavelength,flux" outfile=SN2011by_uv_20110509_2.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump obnd10010_sx1.fits columns="wavelength,flux" outfile=SN2011by_opt_20110509_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump obnd11010_sx1.fits columns="wavelength,flux" outfile=SN2011by_opt_20110513_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+fdump obnd09010_sx1.fits columns="wavelength,flux" outfile=SN2011by_opt_20110505_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump obnd12010_sx1.fits columns="wavelength,flux" outfile=SN2011by_opt_20110518_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+

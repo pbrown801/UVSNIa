@@ -1,0 +1,4 @@
+fdump oder04010_x1d.fits columns="wavelength,flux" outfile=SN2017cbv_uv_20170330.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump oder11010_sx1.fits columns="wavelength,flux" outfile=SN2017cbv_uv_20170322.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump oder12010_sx1.fits columns="wavelength,flux" outfile=SN2017cbv_uv_20170324.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+fdump oder13010_sx1.fits columns="wavelength,flux" outfile=SN2017cbv_uv_20170326.dat rows=1 prhead=no showcol=no showunit=no showrow=no

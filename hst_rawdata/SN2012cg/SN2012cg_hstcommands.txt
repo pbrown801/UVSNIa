@@ -1,0 +1,4 @@
+fdump obxb92010_sx1.fits columns="wavelength,flux" outfile=SN2012cg_uv_20120604_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
+
+
+fdump obxb92030_sx1.fits columns="wavelength,flux" outfile=SN2012cg_opt_20120604_1.dat rows=1 prhead=no showcol=no showunit=no showrow=no
