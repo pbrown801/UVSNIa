@@ -60,3 +60,14 @@ fdump oedc16040_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- sho
 
 #  59714.73184 - 59714.884988
 # 59714.88
+
+
+
+#oetm
+fdump oetm02030_sx1.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G750L_20220502_1.dat
+#  
+fdump oetm02010_x1d.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G230L_20220502_1.dat
+#    
+fdump oetm02020_sx1.fits columns="wavelength,flux,error,dq" prhead=no rows=- showcol=no showrow=no showunit=no   outfile=SN2022hrs_G430L_20220502_1.dat
+#  
+
