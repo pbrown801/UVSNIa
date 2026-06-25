@@ -71,6 +71,17 @@ binsize = 20
 
 
 
+files=['SN2022hrs_G430L_20220523_1.dat','SN2022hrs_G230L_20220523_1.dat', 'SN2022hrs_G230L_20220523_2.dat', 'SN2022hrs_G230L_20220523_3.dat']
+
+
+opticalfile='SN2022hrs_20220425_redblu_100756.570.ascii'
+
+outputfilename = "SN20222hrs_muv_20220523_20"
+filename = "SN2022hrs_muv_20220523_20"
+binsize = 20
+
+
+
 
 
 
